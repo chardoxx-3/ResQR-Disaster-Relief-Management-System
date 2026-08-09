@@ -1,0 +1,3260 @@
+DEBUG - 2026-04-14 07:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:52:17 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 07:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 07:53:56 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:07:11 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:10:29 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:35:41 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:37:35 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:41:23 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:51:55 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:52:20 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:52:33 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:53:17 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:54:05 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:27 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5818
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => Daughter
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+    [1] => Array
+        (
+            [id] => 5819
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => Son
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-13 10:03:51
+            [updated_at] => 2026-04-13 10:03:51
+        )
+
+)
+
+DEBUG - 2026-04-14 08:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:40 --> Captured family member photo saved: uploads/family_photos/member_captured_69dd914058440_1776128320.jpg for member: MARIANE P. CABONILLAS
+DEBUG - 2026-04-14 08:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:43 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5820
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd914058440_1776128320.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:58:40
+            [updated_at] => 2026-04-14 08:58:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd914058440_1776128320.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5821
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:58:40
+            [updated_at] => 2026-04-14 08:58:40
+        )
+
+)
+
+DEBUG - 2026-04-14 08:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:04 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5820
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd914058440_1776128320.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:58:40
+            [updated_at] => 2026-04-14 08:58:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd914058440_1776128320.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5821
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:58:40
+            [updated_at] => 2026-04-14 08:58:40
+        )
+
+)
+
+DEBUG - 2026-04-14 08:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:15 --> Captured photo saved for update: uploads/head_photos/captured_69dd916303114.jpg
+DEBUG - 2026-04-14 08:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:18 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5822
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:59:15
+            [updated_at] => 2026-04-14 08:59:15
+        )
+
+    [1] => Array
+        (
+            [id] => 5823
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:59:15
+            [updated_at] => 2026-04-14 08:59:15
+        )
+
+)
+
+DEBUG - 2026-04-14 08:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 08:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:39 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5822
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:59:15
+            [updated_at] => 2026-04-14 08:59:15
+        )
+
+    [1] => Array
+        (
+            [id] => 5823
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 08:59:15
+            [updated_at] => 2026-04-14 08:59:15
+        )
+
+)
+
+DEBUG - 2026-04-14 09:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:48 --> Captured family member photo saved: uploads/family_photos/member_captured_69dd91c097ffe_1776128448.jpg for member: MARIANE P. CABONILLAS
+DEBUG - 2026-04-14 09:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:51 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5824
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd91c097ffe_1776128448.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:00:48
+            [updated_at] => 2026-04-14 09:00:48
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd91c097ffe_1776128448.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5825
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:00:48
+            [updated_at] => 2026-04-14 09:00:48
+        )
+
+)
+
+DEBUG - 2026-04-14 09:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:00:58 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5824
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd91c097ffe_1776128448.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:00:48
+            [updated_at] => 2026-04-14 09:00:48
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd91c097ffe_1776128448.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5825
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:00:48
+            [updated_at] => 2026-04-14 09:00:48
+        )
+
+)
+
+DEBUG - 2026-04-14 09:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:06 --> Captured photo saved for update: uploads/head_photos/captured_69dd91d24a216.jpg
+DEBUG - 2026-04-14 09:01:06 --> Deleted old family member photo: uploads/family_photos/member_captured_69dd91c097ffe_1776128448.jpg
+DEBUG - 2026-04-14 09:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:06 --> Captured photo saved for update: uploads/head_photos/captured_69dd91d2a9b29.jpg
+DEBUG - 2026-04-14 09:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:28 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5828
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:06
+            [updated_at] => 2026-04-14 09:01:06
+        )
+
+    [1] => Array
+        (
+            [id] => 5829
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:06
+            [updated_at] => 2026-04-14 09:01:06
+        )
+
+)
+
+DEBUG - 2026-04-14 09:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:46 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5830
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:34
+            [updated_at] => 2026-04-14 09:01:34
+        )
+
+    [1] => Array
+        (
+            [id] => 5831
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:34
+            [updated_at] => 2026-04-14 09:01:34
+        )
+
+)
+
+DEBUG - 2026-04-14 09:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:01:53 --> Captured family member photo saved: uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg for member: MARIANE P. CABONILLAS
+DEBUG - 2026-04-14 09:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:47:12 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 09:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:47:13 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 09:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:54:26 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 09:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 09:54:29 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 10:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 10:41:51 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 10:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 10:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 13:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 13:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 13:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 13:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 13:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:00:27 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:09:49 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:10:03 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:34:48 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:44:40 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:44:49 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:50:05 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:51:37 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:52:02 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:52:15 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:52:31 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:52:36 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:56:07 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:57:00 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5832
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5833
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 09:01:53
+            [updated_at] => 2026-04-14 09:01:53
+        )
+
+)
+
+DEBUG - 2026-04-14 14:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:57:16 --> Preserved existing family member photo: uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+DEBUG - 2026-04-14 14:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 14:57:20 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5834
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5835
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+        )
+
+)
+
+DEBUG - 2026-04-14 15:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:00:32 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5834
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5835
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+        )
+
+)
+
+DEBUG - 2026-04-14 15:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:00:53 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5834
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5835
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+        )
+
+)
+
+DEBUG - 2026-04-14 15:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:02:32 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5834
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5835
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+        )
+
+)
+
+DEBUG - 2026-04-14 15:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:05:08 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5834
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5835
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 14:57:16
+            [updated_at] => 2026-04-14 14:57:16
+        )
+
+)
+
+DEBUG - 2026-04-14 15:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:07:54 --> Preserved existing family member photo: uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+DEBUG - 2026-04-14 15:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:08:56 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 15:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:20:08 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:20:38 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 15:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:21:51 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 15:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:32:46 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 15:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 15:37:39 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 16:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:03:09 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 16:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:11:44 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 16:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:15:26 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 16:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:17:10 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 16:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:19:50 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 16:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:24:34 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 16:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 16:26:34 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-14 17:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-14 17:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

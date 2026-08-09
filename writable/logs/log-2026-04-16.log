@@ -1,0 +1,1706 @@
+DEBUG - 2026-04-16 07:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:21:58 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5836
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5837
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-14 15:07:54
+            [updated_at] => 2026-04-14 15:07:54
+        )
+
+)
+
+DEBUG - 2026-04-16 07:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:22:16 --> Preserved existing family member photo: uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+DEBUG - 2026-04-16 07:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:22:20 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5838
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-16 07:22:16
+            [updated_at] => 2026-04-16 07:22:16
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5839
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-16 07:22:16
+            [updated_at] => 2026-04-16 07:22:16
+        )
+
+)
+
+DEBUG - 2026-04-16 07:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:48:32 --> Captured photo saved: uploads/head_photos/captured_69e023d01639d.jpg
+DEBUG - 2026-04-16 07:48:32 --> Captured family member photo saved: uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg for member: CHRISJUN SABOTE
+DEBUG - 2026-04-16 07:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:48:35 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5840
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => CHRISJUN SABOTE
+            [relation] => MOTHER
+            [birthdate] => 2026-04-16
+            [age] => 0
+            [sex] => Female
+            [education] => CPSC
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 07:48:32
+            [updated_at] => 2026-04-16 07:48:32
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+        )
+
+)
+
+DEBUG - 2026-04-16 07:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 07:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:01:49 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5840
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => CHRISJUN SABOTE
+            [relation] => MOTHER
+            [birthdate] => 2026-04-16
+            [age] => 0
+            [sex] => Female
+            [education] => CPSC
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 07:48:32
+            [updated_at] => 2026-04-16 07:48:32
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+        )
+
+)
+
+DEBUG - 2026-04-16 08:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:02:02 --> Processing drawn signature - data length: 19590
+DEBUG - 2026-04-16 08:02:02 --> Base64 data preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAEYCAYAAAAqFU6RAAAQAElEQVR4AezdB2AUVf4H8N+b3RQITU
+DEBUG - 2026-04-16 08:02:02 --> Drawn signature saved successfully: uploads/signatures/signature_drawn_69e026fa4eb4b_1776297722.png
+DEBUG - 2026-04-16 08:02:02 --> Using drawn signature for update: uploads/signatures/signature_drawn_69e026fa4eb4b_1776297722.png
+DEBUG - 2026-04-16 08:02:02 --> Preserved existing family member photo: uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+DEBUG - 2026-04-16 08:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:02:04 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5841
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => CHRISJUN SABOTE
+            [relation] => MOTHER
+            [birthdate] => 2026-04-16
+            [age] => 0
+            [sex] => Female
+            [education] => CPSC
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 08:02:02
+            [updated_at] => 2026-04-16 08:02:02
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+        )
+
+)
+
+DEBUG - 2026-04-16 08:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:02:15 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5841
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => CHRISJUN SABOTE
+            [relation] => MOTHER
+            [birthdate] => 2026-04-16
+            [age] => 0
+            [sex] => Female
+            [education] => CPSC
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 08:02:02
+            [updated_at] => 2026-04-16 08:02:02
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+        )
+
+)
+
+DEBUG - 2026-04-16 08:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:03:29 --> Processing drawn signature - data length: 18798
+DEBUG - 2026-04-16 08:03:29 --> Base64 data preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAEYCAYAAAAqFU6RAAAQAElEQVR4AezdCVxUVfsH8HPuDKvirq
+DEBUG - 2026-04-16 08:03:29 --> Drawn signature saved successfully: uploads/signatures/signature_drawn_69e027511999f_1776297809.png
+DEBUG - 2026-04-16 08:03:29 --> Using drawn signature: uploads/signatures/signature_drawn_69e027511999f_1776297809.png
+DEBUG - 2026-04-16 08:03:29 --> Captured photo saved: uploads/head_photos/captured_69e027511bc48.jpg
+DEBUG - 2026-04-16 08:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:03:31 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:11:32 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:11:39 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:12:22 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:12:28 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:12:36 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:12:48 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:13:03 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:13:36 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:14:16 --> Deleted old signature: uploads/signatures/signature_drawn_69e027511999f_1776297809.png
+DEBUG - 2026-04-16 08:14:16 --> Processing drawn signature - data length: 13114
+DEBUG - 2026-04-16 08:14:16 --> Base64 data preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAEYCAYAAAAqFU6RAAAQAElEQVR4AezdCYBN5fvA8ecOg0F2hS
+DEBUG - 2026-04-16 08:14:16 --> Drawn signature saved successfully: uploads/signatures/signature_drawn_69e029d85d378_1776298456.png
+DEBUG - 2026-04-16 08:14:16 --> Using drawn signature for update: uploads/signatures/signature_drawn_69e029d85d378_1776298456.png
+DEBUG - 2026-04-16 08:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:14:18 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:33:24 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:43:32 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:44:00 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:47:40 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:48:01 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 08:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 08:51:04 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 09:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 09:08:13 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 09:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 09:20:31 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 09:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 09:50:16 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 10:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:06:39 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 10:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:08:58 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 10:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:19:42 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 10:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:47:01 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 10:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 10:56:18 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 12:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 12:06:28 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 12:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 12:07:35 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 13:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:51:35 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 13:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:51:43 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 13:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:52:03 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 13:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:55:27 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 13:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:57:47 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 13:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 13:59:38 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 14:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:01:33 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 14:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:05:33 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 14:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:20 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-04-16 14:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:49 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5838
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-16 07:22:16
+            [updated_at] => 2026-04-16 07:22:16
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5839
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-16 07:22:16
+            [updated_at] => 2026-04-16 07:22:16
+        )
+
+)
+
+DEBUG - 2026-04-16 14:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:54 --> Deleted old family member photo: uploads/family_photos/member_captured_69dd9201e15db_1776128513.jpg
+DEBUG - 2026-04-16 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:11:59 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5841
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => CHRISJUN SABOTE
+            [relation] => MOTHER
+            [birthdate] => 2026-04-16
+            [age] => 0
+            [sex] => Female
+            [education] => CPSC
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 08:02:02
+            [updated_at] => 2026-04-16 08:02:02
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+        )
+
+)
+
+DEBUG - 2026-04-16 14:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:13:45 --> Deleted old family member photo: uploads/family_photos/member_captured_69e023d03aa11_1776296912.jpg
+DEBUG - 2026-04-16 14:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:13:49 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5844
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => ANNA MICULOB
+            [relation] => DAUGHTER
+            [birthdate] => 2020-01-28
+            [age] => 6
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 14:13:45
+            [updated_at] => 2026-04-16 14:13:45
+        )
+
+)
+
+DEBUG - 2026-04-16 14:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:26:32 --> Processing drawn signature - data length: 22310
+DEBUG - 2026-04-16 14:26:32 --> Base64 data preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAEYCAYAAAAqFU6RAAAQAElEQVR4AeydBWAURxuG34sixX68xa
+DEBUG - 2026-04-16 14:26:32 --> Drawn signature saved successfully: uploads/signatures/signature_drawn_69e08118b7779_1776320792.png
+DEBUG - 2026-04-16 14:26:32 --> Using drawn signature: uploads/signatures/signature_drawn_69e08118b7779_1776320792.png
+DEBUG - 2026-04-16 14:26:32 --> Captured photo saved: uploads/head_photos/captured_69e08118bd7bd.jpg
+DEBUG - 2026-04-16 14:26:33 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg for member: ISAH BELLE MARIE GUIDABEN
+DEBUG - 2026-04-16 14:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:26:37 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5845
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:26:33
+            [updated_at] => 2026-04-16 14:26:33
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5846
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:26:33
+            [updated_at] => 2026-04-16 14:26:33
+        )
+
+    [2] => Array
+        (
+            [id] => 5847
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:26:33
+            [updated_at] => 2026-04-16 14:26:33
+        )
+
+)
+
+DEBUG - 2026-04-16 14:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:27:05 --> Preserved existing family member photo: uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+DEBUG - 2026-04-16 14:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:27:09 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5848
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:27:05
+            [updated_at] => 2026-04-16 14:27:05
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5849
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:27:05
+            [updated_at] => 2026-04-16 14:27:05
+        )
+
+    [2] => Array
+        (
+            [id] => 5850
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:27:05
+            [updated_at] => 2026-04-16 14:27:05
+        )
+
+)
+
+DEBUG - 2026-04-16 14:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:36:43 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5848
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:27:05
+            [updated_at] => 2026-04-16 14:27:05
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5849
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:27:05
+            [updated_at] => 2026-04-16 14:27:05
+        )
+
+    [2] => Array
+        (
+            [id] => 5850
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:27:05
+            [updated_at] => 2026-04-16 14:27:05
+        )
+
+)
+
+DEBUG - 2026-04-16 14:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:39:31 --> Preserved existing family member photo: uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+DEBUG - 2026-04-16 14:39:31 --> Captured family member photo saved: uploads/family_photos/member_captured_69e084239698c_1776321571.jpg for member: CHRISJUN SABOTE
+DEBUG - 2026-04-16 14:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:39:35 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5851
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:39:31
+            [updated_at] => 2026-04-16 14:39:31
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5852
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:39:31
+            [updated_at] => 2026-04-16 14:39:31
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 5853
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:39:31
+            [updated_at] => 2026-04-16 14:39:31
+        )
+
+)
+
+DEBUG - 2026-04-16 14:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:40:47 --> Preserved existing family member photo: uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+DEBUG - 2026-04-16 14:40:47 --> Preserved existing family member photo: uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+DEBUG - 2026-04-16 14:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:40:50 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5854
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5855
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 5856
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+        )
+
+)
+
+DEBUG - 2026-04-16 14:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:44:29 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5854
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5855
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 5856
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+        )
+
+)
+
+DEBUG - 2026-04-16 14:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:44:53 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5854
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5855
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 5856
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:40:47
+            [updated_at] => 2026-04-16 14:40:47
+        )
+
+)
+
+DEBUG - 2026-04-16 14:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 14:47:40 --> Preserved existing family member photo: uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+DEBUG - 2026-04-16 14:47:40 --> Preserved existing family member photo: uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+DEBUG - 2026-04-16 14:47:40 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0860c07871_1776322060.jpg for member: GODWIN
+DEBUG - 2026-04-16 14:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:38:50 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5844
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => ANNA MICULOB
+            [relation] => DAUGHTER
+            [birthdate] => 2020-01-28
+            [age] => 6
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 14:13:45
+            [updated_at] => 2026-04-16 14:13:45
+        )
+
+)
+
+DEBUG - 2026-04-16 15:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 15:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:04 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5857
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:47:40
+            [updated_at] => 2026-04-16 14:47:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5858
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:47:40
+            [updated_at] => 2026-04-16 14:47:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 5859
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0860c07871_1776322060.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:47:40
+            [updated_at] => 2026-04-16 14:47:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0860c07871_1776322060.jpg
+        )
+
+)
+
+DEBUG - 2026-04-16 18:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:42:26 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5842
+            [resident_id] => 1795
+            [member_id] => 0195-01
+            [name] => MARIANE P. CABONILLAS
+            [relation] => DAUGHTER
+            [birthdate] => 2006-06-09
+            [age] => 19
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 65c4ee2a7704d754f3dbd5ebeeb08e64
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-16 14:11:54
+            [updated_at] => 2026-04-16 14:11:54
+        )
+
+    [1] => Array
+        (
+            [id] => 5843
+            [resident_id] => 1795
+            [member_id] => 0195-02
+            [name] => JOSHUA P. CABONILLAS
+            [relation] => SON
+            [birthdate] => 2007-02-10
+            [age] => 19
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a0edb46ba95e650cb8d22586bd669344
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-16 14:11:54
+            [updated_at] => 2026-04-16 14:11:54
+        )
+
+)
+
+DEBUG - 2026-04-16 18:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 18:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:15:43 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5857
+            [resident_id] => 1798
+            [member_id] => 0197-01
+            [name] => ISAH BELLE MARIE GUIDABEN
+            [relation] => MOTHER
+            [birthdate] => 2001-10-16
+            [age] => 24
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d7ac0a91016b9b6e6f70f97fb7b68e758c3e773671c4e89363ef7eeaec8536a7
+            [qr_code_id] => 69e0811901ab9_0
+            [status] => active
+            [created_at] => 2026-04-16 14:47:40
+            [updated_at] => 2026-04-16 14:47:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0811901ca8_1776320793.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 5858
+            [resident_id] => 1798
+            [member_id] => 0197-02
+            [name] => CHRISJUN SABOTE
+            [relation] => SON
+            [birthdate] => 2022-02-02
+            [age] => 4
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb75d0d35a796307a93fb490b87092384bb9a429dd1edea31cd90780985a7b82
+            [qr_code_id] => 69e0811902ef9_1
+            [status] => active
+            [created_at] => 2026-04-16 14:47:40
+            [updated_at] => 2026-04-16 14:47:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e084239698c_1776321571.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 5859
+            [resident_id] => 1798
+            [member_id] => 0197-03
+            [name] => GODWIN
+            [relation] => SON
+            [birthdate] => 2024-07-17
+            [age] => 1
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/member_captured_69e0860c07871_1776322060.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 479c8fdb472b2dcf14c59c97b7749cdfee506f6fab55c544836618557f7c4706
+            [qr_code_id] => 69e0811902f0c_2
+            [status] => active
+            [created_at] => 2026-04-16 14:47:40
+            [updated_at] => 2026-04-16 14:47:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/member_captured_69e0860c07871_1776322060.jpg
+        )
+
+)
+
+DEBUG - 2026-04-16 19:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:17:52 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5860
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => ANNA MICULOB
+            [relation] => DAUGHTER
+            [birthdate] => 2020-01-28
+            [age] => 6
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 15:38:57
+            [updated_at] => 2026-04-16 15:38:57
+        )
+
+)
+
+DEBUG - 2026-04-16 19:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:18:16 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 5860
+            [resident_id] => 1796
+            [member_id] => 0196-01
+            [name] => ANNA MICULOB
+            [relation] => DAUGHTER
+            [birthdate] => 2020-01-28
+            [age] => 6
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e6d432a5afa6516f635b818efd1a3b0fffc4ee24c97a17ce8f612e9907118668
+            [qr_code_id] => 69e023d03a714_0
+            [status] => active
+            [created_at] => 2026-04-16 15:38:57
+            [updated_at] => 2026-04-16 15:38:57
+        )
+
+)
+
+DEBUG - 2026-04-16 19:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 19:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:38:26 --> Captured photo saved: uploads/head_photos/captured_69e0d842a4426.jpg
+DEBUG - 2026-04-16 20:38:26 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0d842b9ec9_1776343106.jpg for member: RAWINA DUMANCAS
+DEBUG - 2026-04-16 20:38:26 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0d842bc9da_1776343106.jpg for member: SHEAN DUMANCAS
+DEBUG - 2026-04-16 20:38:26 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0d842bf2c0_1776343106.jpg for member: ANA SHIELA
+DEBUG - 2026-04-16 20:38:26 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0d842c200c_1776343106.jpg for member: RAMIL DUMANGCAS
+DEBUG - 2026-04-16 20:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:43:15 --> Captured photo saved: uploads/head_photos/captured_69e0d9637bf6a.jpg
+DEBUG - 2026-04-16 20:43:15 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0d9638dd14_1776343395.jpg for member: RABEL SANTOS
+DEBUG - 2026-04-16 20:43:15 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0d9638f596_1776343395.jpg for member: MELODY SANTOS
+DEBUG - 2026-04-16 20:43:15 --> Captured family member photo saved: uploads/family_photos/member_captured_69e0d96390fcc_1776343395.jpg for member: CAMILLE SANTOS
+DEBUG - 2026-04-16 20:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-16 20:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

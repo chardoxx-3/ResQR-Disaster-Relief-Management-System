@@ -1,0 +1,2008 @@
+DEBUG - 2026-07-11 11:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 11:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:14:11 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:14:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:11 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:14:12 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:14:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:12 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:14:14 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:14:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:14 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:14:17 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:14:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:14:17 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:15:46 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:15:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:15:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:15:46 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(128): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:17:25 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:17:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:25 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:17:26 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:17:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:26 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:17:26 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:17:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:26 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:17:27 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:17:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:17:27 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:18:21 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:18:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:21 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:18:23 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:18:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:23 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:18:29 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:18:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:29 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:18:36 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:18:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:18:36 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-11 12:19:39 --> mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list' in C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Richard Miculob\Documents\ResQR\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id...', 0)
+#1 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id...')
+#2 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id...')
+#3 C:\Users\Richard Miculob\Documents\ResQR\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id...', Array, false)
+#4 C:\Users\Richard Miculob\Documents\ResQR\app\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Richard Miculob\Documents\ResQR\app\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+#6 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+#7 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+#8 C:\Users\Richard Miculob\Documents\ResQR\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Richard Miculob\Documents\ResQR\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Richard Miculob\Documents\ResQR\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Richard Miculob\Documents\ResQR\system\rewrite.php(44): require_once('C:\\Users\\Richar...')
+#13 {main}
+CRITICAL - 2026-07-11 12:19:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+[Method: GET, Route: distribution/list-json]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:19:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+CRITICAL - 2026-07-11 12:19:39 --> [Caused by] mysqli_sql_exception: Unknown column 'bd.claimed_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = \'8\'
+AND DATE(bd.distribution_date) = \'2026-07-11\'
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `bd`.`id`, `bd`.`claimed_at`, `bd`.`distribution_date`, `bd`.`quantity_distributed`, `bd`.`family_member_id`, `r`.`id` as `resident_id`, `r`.`first_name` as `head_first_name`, `r`.`last_name` as `head_last_name`, `r`.`household_no`, `fm`.`name` as `family_member_name`, `fm`.`relation`, `i`.`item_name`, `u`.`username` as `distributor_name`
+FROM `batch_distributions` `bd`
+JOIN `residents` `r` ON `r`.`id` = `bd`.`resident_id`
+LEFT JOIN `family_members` `fm` ON `fm`.`id` = `bd`.`family_member_id`
+LEFT JOIN `inventory_batches` `ib` ON `ib`.`id` = `bd`.`batch_id`
+LEFT JOIN `inventory` `i` ON `i`.`id` = `ib`.`inventory_id`
+LEFT JOIN `users` `u` ON `u`.`id` = `bd`.`distributor_id`
+WHERE `bd`.`event_id` = :bd.event_id:
+AND DATE(bd.distribution_date) = :DATE(bd.distribution_date):
+ORDER BY `bd`.`distribution_date` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\BatchDistributionModel.php(129): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Distribution.php(763): App\Models\BatchDistributionModel->getRecentByEvent('8')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Distribution->listJson()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Distribution))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-07-11 12:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 12:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 13:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-11 18:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

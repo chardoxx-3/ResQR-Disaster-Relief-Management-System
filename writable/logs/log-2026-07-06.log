@@ -1,0 +1,3554 @@
+DEBUG - 2026-07-06 11:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 11:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:09:52 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23766
+            [resident_id] => 8582
+            [member_id] => 0267-01
+            [name] => LEONARDO S. LAMONTE
+            [relation] => SON
+            [birthdate] => 1975-06-15
+            [age] => 50
+            [sex] => Male
+            [education] => 
+            [occupation] => FISHERMAN
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 78afbab041726193c686afa4fa8dcd7e
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [1] => Array
+        (
+            [id] => 23767
+            [resident_id] => 8582
+            [member_id] => 0267-02
+            [name] => ARCELIE S. LAMONTE
+            [relation] => WIFE
+            [birthdate] => 1976-05-09
+            [age] => 49
+            [sex] => Female
+            [education] => HIGHSCHOOL LEVEL
+            [occupation] => FISH VENDOR
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 90708e8e04ef7e167f841d07179a0967
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [2] => Array
+        (
+            [id] => 23768
+            [resident_id] => 8582
+            [member_id] => 0267-03
+            [name] => GEROME S. LAMONTE
+            [relation] => SON
+            [birthdate] => 1999-07-20
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => MAKEUP ARTIST
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ba5b80935a991acf484daf1c73a40bc3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [3] => Array
+        (
+            [id] => 23769
+            [resident_id] => 8582
+            [member_id] => 0267-04
+            [name] => LEONARDO S. LAMOMTE JR.
+            [relation] => SON
+            [birthdate] => 2002-01-27
+            [age] => 24
+            [sex] => Male
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ea5a6fbf8362569ea311813b3233270d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [4] => Array
+        (
+            [id] => 23770
+            [resident_id] => 8582
+            [member_id] => 0267-05
+            [name] => JUSTINE S. LAMONTE
+            [relation] => SON
+            [birthdate] => 2007-10-03
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL GRADUATE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4892b431f3ea2dfc1bac6fb07cbfd713
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+)
+
+DEBUG - 2026-07-06 14:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:10:40 --> Uploaded family member photo saved: uploads/family_photos/LEONARDO_S_LAMONTE_2026-07-06_14-10-40.jfif for member: LEONARDO S. LAMONTE
+DEBUG - 2026-07-06 14:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:10:41 --> Uploaded family member photo saved: uploads/family_photos/LEONARDO_S_LAMONTE_2026-07-06_14-10-41.jfif for member: LEONARDO S. LAMONTE
+DEBUG - 2026-07-06 14:10:41 --> Deleted old family member photo: uploads/family_photos/LEONARDO_S_LAMONTE_2026-07-06_14-10-40.jfif
+DEBUG - 2026-07-06 14:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:10:49 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23781
+            [resident_id] => 8582
+            [member_id] => 0267-01
+            [name] => LEONARDO S. LAMONTE
+            [relation] => FATHER
+            [birthdate] => 1975-06-15
+            [age] => 50
+            [sex] => Male
+            [education] => 
+            [occupation] => FISHERMAN
+            [remarks] => 
+            [photo] => uploads/family_photos/LEONARDO_S_LAMONTE_2026-07-06_14-10-41.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 78afbab041726193c686afa4fa8dcd7e
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:10:41
+            [updated_at] => 2026-07-06 14:10:41
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/LEONARDO_S_LAMONTE_2026-07-06_14-10-41.jfif
+        )
+
+    [1] => Array
+        (
+            [id] => 23782
+            [resident_id] => 8582
+            [member_id] => 0267-02
+            [name] => ARCELIE S. LAMONTE
+            [relation] => WIFE
+            [birthdate] => 1976-05-09
+            [age] => 49
+            [sex] => Female
+            [education] => HIGHSCHOOL LEVEL
+            [occupation] => FISH VENDOR
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 90708e8e04ef7e167f841d07179a0967
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:10:41
+            [updated_at] => 2026-07-06 14:10:41
+        )
+
+    [2] => Array
+        (
+            [id] => 23783
+            [resident_id] => 8582
+            [member_id] => 0267-03
+            [name] => GEROME S. LAMONTE
+            [relation] => SON
+            [birthdate] => 1999-07-20
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => MAKEUP ARTIST
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ba5b80935a991acf484daf1c73a40bc3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:10:41
+            [updated_at] => 2026-07-06 14:10:41
+        )
+
+    [3] => Array
+        (
+            [id] => 23784
+            [resident_id] => 8582
+            [member_id] => 0267-04
+            [name] => LEONARDO S. LAMOMTE JR.
+            [relation] => SON
+            [birthdate] => 2002-01-27
+            [age] => 24
+            [sex] => Male
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ea5a6fbf8362569ea311813b3233270d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:10:41
+            [updated_at] => 2026-07-06 14:10:41
+        )
+
+    [4] => Array
+        (
+            [id] => 23785
+            [resident_id] => 8582
+            [member_id] => 0267-05
+            [name] => JUSTINE S. LAMONTE
+            [relation] => SON
+            [birthdate] => 2007-10-03
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL GRADUATE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4892b431f3ea2dfc1bac6fb07cbfd713
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:10:41
+            [updated_at] => 2026-07-06 14:10:41
+        )
+
+)
+
+DEBUG - 2026-07-06 14:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:11:18 --> Preserved existing family member photo: uploads/family_photos/LEONARDO_S_LAMONTE_2026-07-06_14-10-41.jfif
+DEBUG - 2026-07-06 14:11:18 --> Uploaded family member photo saved: uploads/family_photos/JUSTINE_S_LAMONTE_2026-07-06_14-11-18.jfif for member: JUSTINE S. LAMONTE
+DEBUG - 2026-07-06 14:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:11:33 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23134
+            [resident_id] => 8417
+            [member_id] => 0077-01
+            [name] => NARIA YLLAJAY JAMPIT
+            [relation] => Daughter
+            [birthdate] => 2023-12-30
+            [age] => 2
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8290a34d1aff04d382e21d2483eccf8f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [1] => Array
+        (
+            [id] => 23135
+            [resident_id] => 8417
+            [member_id] => 0077-02
+            [name] => MARA YSABELLE
+            [relation] => Daughter
+            [birthdate] => 2025-04-11
+            [age] => 1
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => c378c3d3bcfc1d806fdfbc94d91c7238
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+)
+
+DEBUG - 2026-07-06 14:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:12:26 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23688
+            [resident_id] => 8499
+            [member_id] => 0178-01
+            [name] => ESTER F. DAHAN
+            [relation] => WIFE
+            [birthdate] => 1960-11-28
+            [age] => 65
+            [sex] => Female
+            [education] => HIGHSCHOOL LEVEL
+            [occupation] => HOUSEWIFE
+            [remarks] => 
+            [photo] => uploads/family_photos/ESTER_F_DAHAN_2026-04-18_17-28-24.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 7840a758d9c35c45141e69f9d659b2c1
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:10:48
+            [updated_at] => 2026-04-19 10:10:48
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ESTER_F_DAHAN_2026-04-18_17-28-24.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23689
+            [resident_id] => 8499
+            [member_id] => 0178-02
+            [name] => MARY GRACE DAHAN
+            [relation] => DAUGHTER
+            [birthdate] => 1999-10-01
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => REGISTRAR OFFICER
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1a7c9998ff8cd3ed533637b07976e6b4
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:10:48
+            [updated_at] => 2026-04-19 10:10:48
+        )
+
+    [2] => Array
+        (
+            [id] => 23690
+            [resident_id] => 8499
+            [member_id] => 0178-03
+            [name] => LESTER F. DAHAN
+            [relation] => SON
+            [birthdate] => 1998-04-17
+            [age] => 27
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => TEACHER
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => c27fec7d25af8e761db66b04ec86b3f0
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:10:48
+            [updated_at] => 2026-04-19 10:10:48
+        )
+
+    [3] => Array
+        (
+            [id] => 23691
+            [resident_id] => 8499
+            [member_id] => 0178-04
+            [name] => ERVIN F. DAHAN
+            [relation] => SON
+            [birthdate] => 1988-12-16
+            [age] => 37
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => GOVERNMENT EMPLOYEE
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d580ec454b3dbd59388e6c2ea847f89c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:10:48
+            [updated_at] => 2026-04-19 10:10:48
+        )
+
+)
+
+DEBUG - 2026-07-06 14:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:12:36 --> Preserved existing family member photo: uploads/family_photos/ESTER_F_DAHAN_2026-04-18_17-28-24.jpg
+DEBUG - 2026-07-06 14:12:36 --> Uploaded family member photo saved: uploads/family_photos/MARY_GRACE_DAHAN_2026-07-06_14-12-36.jfif for member: MARY GRACE DAHAN
+DEBUG - 2026-07-06 14:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:12:47 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23048
+            [resident_id] => 8388
+            [member_id] => 0048-01
+            [name] => EDGAR QUIDIT
+            [relation] => Husband
+            [birthdate] => 1985-10-04
+            [age] => 40
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => Butcher
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 754e129798a7b12460b1109216ad7148
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:18
+            [updated_at] => 2026-04-19 10:09:18
+        )
+
+    [1] => Array
+        (
+            [id] => 23049
+            [resident_id] => 8388
+            [member_id] => 0048-02
+            [name] => ALYESHA FAYE QUIDIT
+            [relation] => Daughter
+            [birthdate] => 2007-02-22
+            [age] => 19
+            [sex] => Female
+            [education] => 1ST YEAR COLLEGE
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 62aef9b4cdf319d840fd10c8a8b7f236
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:18
+            [updated_at] => 2026-04-19 10:09:18
+        )
+
+    [2] => Array
+        (
+            [id] => 23050
+            [resident_id] => 8388
+            [member_id] => 0048-03
+            [name] => ALLISON JEANNE QUIDIT
+            [relation] => Daughter
+            [birthdate] => 2011-01-05
+            [age] => 15
+            [sex] => Female
+            [education] => GRADE 9
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8aa5e3036218db111063f5f744e16092
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:18
+            [updated_at] => 2026-04-19 10:09:18
+        )
+
+    [3] => Array
+        (
+            [id] => 23051
+            [resident_id] => 8388
+            [member_id] => 0048-04
+            [name] => ALMHEA ANGELICK QUIDIT
+            [relation] => Daughter
+            [birthdate] => 2014-01-23
+            [age] => 12
+            [sex] => Female
+            [education] => GRADE 6
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d8534e828a16e6e6fbfd93c6bf804b37
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:18
+            [updated_at] => 2026-04-19 10:09:18
+        )
+
+    [4] => Array
+        (
+            [id] => 23052
+            [resident_id] => 8388
+            [member_id] => 0048-05
+            [name] => ALRHEA PATRAISE QUIDIT
+            [relation] => Daughter
+            [birthdate] => 2017-08-05
+            [age] => 8
+            [sex] => Female
+            [education] => GRADE 3
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8f5987524d7b54825c6044b5f916c053
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:18
+            [updated_at] => 2026-04-19 10:09:18
+        )
+
+    [5] => Array
+        (
+            [id] => 23053
+            [resident_id] => 8388
+            [member_id] => 0048-06
+            [name] => ALANA AISH QUIDIT
+            [relation] => Daughter
+            [birthdate] => 2021-01-15
+            [age] => 5
+            [sex] => Female
+            [education] => PRE-SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 5097bf87412098927f764660dbd6f9aa
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:18
+            [updated_at] => 2026-04-19 10:09:18
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:05 --> Uploaded family member photo saved: uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif for member: EDGAR QUIDIT
+DEBUG - 2026-07-06 14:13:05 --> Preserved existing family member photo: uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+DEBUG - 2026-07-06 14:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:13:44 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23795
+            [resident_id] => 8388
+            [member_id] => 0048-01
+            [name] => EDGAR QUIDIT
+            [relation] => HUSBAND
+            [birthdate] => 1985-10-04
+            [age] => 40
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => BUTCHER
+            [remarks] => 
+            [photo] => uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 754e129798a7b12460b1109216ad7148
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:13:05
+            [updated_at] => 2026-07-06 14:13:05
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+        )
+
+    [1] => Array
+        (
+            [id] => 23796
+            [resident_id] => 8388
+            [member_id] => 0048-02
+            [name] => ALYESHA FAYE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2007-02-22
+            [age] => 19
+            [sex] => Female
+            [education] => 1ST YEAR COLLEGE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 62aef9b4cdf319d840fd10c8a8b7f236
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:13:05
+            [updated_at] => 2026-07-06 14:13:05
+        )
+
+    [2] => Array
+        (
+            [id] => 23797
+            [resident_id] => 8388
+            [member_id] => 0048-03
+            [name] => ALLISON JEANNE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2011-01-05
+            [age] => 15
+            [sex] => Female
+            [education] => GRADE 9
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8aa5e3036218db111063f5f744e16092
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:13:05
+            [updated_at] => 2026-07-06 14:13:05
+        )
+
+    [3] => Array
+        (
+            [id] => 23798
+            [resident_id] => 8388
+            [member_id] => 0048-04
+            [name] => ALMHEA ANGELICK QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2014-01-23
+            [age] => 12
+            [sex] => Female
+            [education] => GRADE 6
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d8534e828a16e6e6fbfd93c6bf804b37
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:13:05
+            [updated_at] => 2026-07-06 14:13:05
+        )
+
+    [4] => Array
+        (
+            [id] => 23799
+            [resident_id] => 8388
+            [member_id] => 0048-05
+            [name] => ALRHEA PATRAISE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2017-08-05
+            [age] => 8
+            [sex] => Female
+            [education] => GRADE 3
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8f5987524d7b54825c6044b5f916c053
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:13:05
+            [updated_at] => 2026-07-06 14:13:05
+        )
+
+    [5] => Array
+        (
+            [id] => 23800
+            [resident_id] => 8388
+            [member_id] => 0048-06
+            [name] => ALANA AISH QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2021-01-15
+            [age] => 5
+            [sex] => Female
+            [education] => PRE-SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 5097bf87412098927f764660dbd6f9aa
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:13:05
+            [updated_at] => 2026-07-06 14:13:05
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:01 --> Preserved existing family member photo: uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+DEBUG - 2026-07-06 14:14:01 --> Uploaded family member photo saved: uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif for member: ALLISON JEANNE QUIDIT
+DEBUG - 2026-07-06 14:14:01 --> Preserved existing family member photo: uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+DEBUG - 2026-07-06 14:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:13 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23756
+            [resident_id] => 8485
+            [member_id] => 0157-01
+            [name] => WILSON TALISAY 
+            [relation] => FATHER
+            [birthdate] => 1967-09-13
+            [age] => 58
+            [sex] => Male
+            [education] => HIGH SCHOOL GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4f357298f38659a162106a04ee02584f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+        )
+
+    [1] => Array
+        (
+            [id] => 23757
+            [resident_id] => 8485
+            [member_id] => 0157-02
+            [name] => WYLNA LEN TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2006-08-02
+            [age] => 19
+            [sex] => Female
+            [education] => TECHNICAL VOCATIONAL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 195737ba51e65eb49e99193f9a5c5bc9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23758
+            [resident_id] => 8485
+            [member_id] => 0157-03
+            [name] => WILXAH TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2010-12-17
+            [age] => 15
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1e8d5cd8e1aa5ec4ff56ce917f03f120
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23759
+            [resident_id] => 8485
+            [member_id] => 0157-04
+            [name] => WILSHIEN TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2012-10-15
+            [age] => 13
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ab582bf7a6ff355b4c7c65347ad79592
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:23 --> Uploaded family member photo saved: uploads/family_photos/WILSON_TALISAY_2026-07-06_14-14-23.jfif for member: WILSON TALISAY 
+DEBUG - 2026-07-06 14:14:23 --> Preserved existing family member photo: uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+DEBUG - 2026-07-06 14:14:23 --> Preserved existing family member photo: uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+DEBUG - 2026-07-06 14:14:23 --> Preserved existing family member photo: uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+DEBUG - 2026-07-06 14:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:36 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23500
+            [resident_id] => 8531
+            [member_id] => 0216-01
+            [name] => VIRGIE PEPITO SAMONTE
+            [relation] => Wife
+            [birthdate] => 1982-03-10
+            [age] => 44
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => House Wife
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 3acadd75076fb838e085c342abe88ffd
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+    [1] => Array
+        (
+            [id] => 23501
+            [resident_id] => 8531
+            [member_id] => 0216-02
+            [name] => JAHVEH MARTIN C. SAMONTE
+            [relation] => Son
+            [birthdate] => 2015-12-17
+            [age] => 10
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/JAHVEH_MARTIN_C_SAMONTE_2026-04-18_17-10-36.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => f796ab1f333be059639e55ffc3e0e24c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/JAHVEH_MARTIN_C_SAMONTE_2026-04-18_17-10-36.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:47 --> Uploaded family member photo saved: uploads/family_photos/VIRGIE_PEPITO_SAMONTE_2026-07-06_14-14-47.jpg for member: VIRGIE PEPITO SAMONTE
+DEBUG - 2026-07-06 14:14:47 --> Preserved existing family member photo: uploads/family_photos/JAHVEH_MARTIN_C_SAMONTE_2026-04-18_17-10-36.jpg
+DEBUG - 2026-07-06 14:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:01 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23771
+            [resident_id] => 8521
+            [member_id] => 0206-01
+            [name] => JESSA LLANASA CUTAB
+            [relation] => Wife
+            [birthdate] => 1990-10-25
+            [age] => 35
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => House Wife
+            [remarks] => 
+            [photo] => uploads/family_photos/JESSA_LLANASA_CUTAB_2026-04-18_16-49-05.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => c81a3f24de8efe4286339df95d17f96e
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-05-08 10:00:40
+            [updated_at] => 2026-05-08 10:00:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/JESSA_LLANASA_CUTAB_2026-04-18_16-49-05.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23772
+            [resident_id] => 8521
+            [member_id] => 0206-02
+            [name] => YHENZ AUDREY L. CUTAB
+            [relation] => Daughter
+            [birthdate] => 2012-09-20
+            [age] => 13
+            [sex] => Female
+            [education] => HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 948c75558f01e1d1b048841ba60e8f33
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-05-08 10:00:40
+            [updated_at] => 2026-05-08 10:00:40
+        )
+
+    [2] => Array
+        (
+            [id] => 23773
+            [resident_id] => 8521
+            [member_id] => 0206-03
+            [name] => EMERALD THERESE L. CUTAB
+            [relation] => Daughter
+            [birthdate] => 2014-04-05
+            [age] => 12
+            [sex] => Female
+            [education] => HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => f81e54955c9f59ebc3785586284b3482
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-05-08 10:00:40
+            [updated_at] => 2026-05-08 10:00:40
+        )
+
+)
+
+DEBUG - 2026-07-06 14:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:10 --> Preserved existing family member photo: uploads/family_photos/JESSA_LLANASA_CUTAB_2026-04-18_16-49-05.jpg
+DEBUG - 2026-07-06 14:15:10 --> Uploaded family member photo saved: uploads/family_photos/YHENZ_AUDREY_L_CUTAB_2026-07-06_14-15-10.jpg for member: YHENZ AUDREY L. CUTAB
+DEBUG - 2026-07-06 14:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:28 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23340
+            [resident_id] => 8482
+            [member_id] => 0154-01
+            [name] => ANGELO A. TALISAY
+            [relation] => Son
+            [birthdate] => 2003-05-02
+            [age] => 22
+            [sex] => Male
+            [education] => 
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/ANGELO_A_TALISAY_2026-04-18_17-21-19.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 5f678209bd02714dd0e211606258b370
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ANGELO_A_TALISAY_2026-04-18_17-21-19.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23341
+            [resident_id] => 8482
+            [member_id] => 0154-02
+            [name] => EVANGELINE TALISAY
+            [relation] => Wife
+            [birthdate] => 1966-02-06
+            [age] => 60
+            [sex] => Female
+            [education] => 
+            [occupation] => Housewife
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => cc12bce239d2ad13214d8ed0cecd6968
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+    [2] => Array
+        (
+            [id] => 23342
+            [resident_id] => 8482
+            [member_id] => 0154-03
+            [name] => VINCENT A. TALISAY
+            [relation] => Son
+            [birthdate] => 1997-04-01
+            [age] => 29
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/VINCENT_A_TALISAY_2026-04-18_17-27-24.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a03cba7caf27fea09590e591b8de4ecb
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/VINCENT_A_TALISAY_2026-04-18_17-27-24.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23343
+            [resident_id] => 8482
+            [member_id] => 0154-04
+            [name] => DIOSMAR A. TALISAY
+            [relation] => Son
+            [birthdate] => 2000-02-15
+            [age] => 26
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => af7cc15b998ae32a37d35a8ae9262a42
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+)
+
+DEBUG - 2026-07-06 14:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:37 --> Preserved existing family member photo: uploads/family_photos/ANGELO_A_TALISAY_2026-04-18_17-21-19.jpg
+DEBUG - 2026-07-06 14:15:37 --> Uploaded family member photo saved: uploads/family_photos/EVANGELINE_TALISAY_2026-07-06_14-15-37.jpg for member: EVANGELINE TALISAY
+DEBUG - 2026-07-06 14:15:37 --> Preserved existing family member photo: uploads/family_photos/VINCENT_A_TALISAY_2026-04-18_17-27-24.jpg
+DEBUG - 2026-07-06 14:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:15:53 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23534
+            [resident_id] => 8543
+            [member_id] => 0228-01
+            [name] => ANTONIA ATASAN ABUROT
+            [relation] => Live In-partner
+            [birthdate] => 1968-06-20
+            [age] => 57
+            [sex] => Female
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Vendor
+            [remarks] => 
+            [photo] => uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1cb86e75e4dc544167d9b34adda1c07f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23535
+            [resident_id] => 8543
+            [member_id] => 0228-02
+            [name] => HERRON ABUROT
+            [relation] => Step-son
+            [birthdate] => 1997-04-07
+            [age] => 29
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Vendor
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a91d7f03cb54693eed7c13dc08792205
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+    [2] => Array
+        (
+            [id] => 23536
+            [resident_id] => 8543
+            [member_id] => 0228-03
+            [name] => NIÑO ALCANTAR
+            [relation] => Son
+            [birthdate] => 2009-07-19
+            [age] => 16
+            [sex] => Male
+            [education] => JUNIOR HIGH SCHOOL COMPLETER
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 23be80b6423b5cbc95b34ec3f2b70aab
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+)
+
+DEBUG - 2026-07-06 14:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:16:04 --> Preserved existing family member photo: uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+DEBUG - 2026-07-06 14:16:04 --> Uploaded family member photo saved: uploads/family_photos/NI_O_ALCANTAR_2026-07-06_14-16-04.jpg for member: NIÑO ALCANTAR
+DEBUG - 2026-07-06 14:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:16:46 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23506
+            [resident_id] => 8534
+            [member_id] => 0219-01
+            [name] => ROSALIN LUCILINARA SALON
+            [relation] => Live-in Partner
+            [birthdate] => 2000-10-06
+            [age] => 25
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => Housewife
+            [remarks] => 
+            [photo] => uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 30bb9d4e5641591ffeade1654ad547f1
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23507
+            [resident_id] => 8534
+            [member_id] => 0219-02
+            [name] => RHYNA AMARAH SALON DUMANGCAS
+            [relation] => Daughter
+            [birthdate] => 2018-12-08
+            [age] => 7
+            [sex] => Female
+            [education] => GRADE 2
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ccf2cca3fab3ee81f5c0d55b45c98c54
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23508
+            [resident_id] => 8534
+            [member_id] => 0219-03
+            [name] => RHYS AMARI SALON DUMANGCAS
+            [relation] => Son
+            [birthdate] => 2021-07-11
+            [age] => 4
+            [sex] => Male
+            [education] => KINDERGARTEN
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 883564c9c2eb3c4eef8c3c0255364991
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:16:59 --> Preserved existing family member photo: uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+DEBUG - 2026-07-06 14:16:59 --> Uploaded family member photo saved: uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-07-06_14-16-59.jpg for member: RHYNA AMARAH SALON DUMANGCAS
+DEBUG - 2026-07-06 14:16:59 --> Preserved existing family member photo: uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+DEBUG - 2026-07-06 14:16:59 --> Deleted old family member photo: uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+DEBUG - 2026-07-06 14:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:17:45 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23537
+            [resident_id] => 8544
+            [member_id] => 0229-01
+            [name] => NONA S. DUMANGCAS
+            [relation] => Wife
+            [birthdate] => 1981-02-20
+            [age] => 45
+            [sex] => Female
+            [education] => HIGH SCHOOL LEVEL
+            [occupation] => Housewife
+            [remarks] => 
+            [photo] => uploads/family_photos/NONA_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 819f8075ef23becc49117873924d3f97
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/NONA_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23538
+            [resident_id] => 8544
+            [member_id] => 0229-02
+            [name] => DAVE S. DUMANGCAS
+            [relation] => Son
+            [birthdate] => 1998-10-06
+            [age] => 27
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/DAVE_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d30355723f8fe7bad72d3c50bfe85ef2
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/DAVE_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23539
+            [resident_id] => 8544
+            [member_id] => 0229-03
+            [name] => FRITZ S. DUMANGCAS
+            [relation] => Son
+            [birthdate] => 2006-05-26
+            [age] => 19
+            [sex] => Male
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/FRITZ_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4c496c8d675b642640286f9d68e8c89c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/FRITZ_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23540
+            [resident_id] => 8544
+            [member_id] => 0229-04
+            [name] => BLANE S. DUMANGCAS
+            [relation] => Son
+            [birthdate] => 2009-08-04
+            [age] => 16
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 0fd3c075088443c88c7bce27bba1579c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+)
+
+DEBUG - 2026-07-06 14:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:17:57 --> Preserved existing family member photo: uploads/family_photos/NONA_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+DEBUG - 2026-07-06 14:17:57 --> Preserved existing family member photo: uploads/family_photos/DAVE_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+DEBUG - 2026-07-06 14:17:57 --> Preserved existing family member photo: uploads/family_photos/FRITZ_S_DUMANGCAS_2026-04-18_17-44-26.jpg
+DEBUG - 2026-07-06 14:17:57 --> Uploaded family member photo saved: uploads/family_photos/BLANE_S_DUMANGCAS_2026-07-06_14-17-57.jpg for member: BLANE S. DUMANGCAS
+DEBUG - 2026-07-06 14:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:18:10 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23577
+            [resident_id] => 8556
+            [member_id] => 0241-01
+            [name] => MELODY H. DUMANGCAS
+            [relation] => Wife
+            [birthdate] => 1982-12-29
+            [age] => 43
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => Housewife
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e36fa71c5bc35c309750f232016f8d24
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [1] => Array
+        (
+            [id] => 23578
+            [resident_id] => 8556
+            [member_id] => 0241-02
+            [name] => MARY KAY DUMANGCAS
+            [relation] => Step Daughter
+            [birthdate] => 2002-10-27
+            [age] => 23
+            [sex] => Female
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d2bc24139456c500e138f8f0e4eeb1d3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23579
+            [resident_id] => 8556
+            [member_id] => 0241-03
+            [name] => ALDY D. IBALE
+            [relation] => Son
+            [birthdate] => 2008-02-05
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => f3e3d4033ade333e424326cd07fb913d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [3] => Array
+        (
+            [id] => 23580
+            [resident_id] => 8556
+            [member_id] => 0241-04
+            [name] => ALMY KAY D. IBALE
+            [relation] => Daughter
+            [birthdate] => 2010-06-03
+            [age] => 15
+            [sex] => Female
+            [education] => JUNIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a9d6e8166a91e1f546d90927bc452881
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [4] => Array
+        (
+            [id] => 23581
+            [resident_id] => 8556
+            [member_id] => 0241-05
+            [name] => CRIS AICEL D. IBALE
+            [relation] => Son
+            [birthdate] => 2015-08-07
+            [age] => 10
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => aa5c50bd19dc7ea62aca9d3ef8ffb04b
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [5] => Array
+        (
+            [id] => 23582
+            [resident_id] => 8556
+            [member_id] => 0241-06
+            [name] => CRIS LAWRENCE
+            [relation] => Son
+            [birthdate] => 2017-09-25
+            [age] => 8
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/CRIS_LAWRENCE_2026-04-18_18-11-09.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 32aaa5636fe03674a0d24b17eb6f1d77
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CRIS_LAWRENCE_2026-04-18_18-11-09.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:19:34 --> Preserved existing family member photo: uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+DEBUG - 2026-07-06 14:19:34 --> Uploaded family member photo saved: uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg for member: CRIS AICEL D. IBALE
+DEBUG - 2026-07-06 14:19:34 --> Uploaded family member photo saved: uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg for member: CRIS LAWRENCE
+DEBUG - 2026-07-06 14:19:35 --> Deleted old family member photo: uploads/family_photos/CRIS_LAWRENCE_2026-04-18_18-11-09.jpg
+DEBUG - 2026-07-06 14:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:19:48 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23562
+            [resident_id] => 8552
+            [member_id] => 0237-01
+            [name] => ROEL A. DAHAN
+            [relation] => Husband
+            [birthdate] => 1966-11-27
+            [age] => 59
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1756dde01ce0ff8d2706e310275126b1
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [1] => Array
+        (
+            [id] => 23563
+            [resident_id] => 8552
+            [member_id] => 0237-02
+            [name] => RUEL M. DAHAN JR.
+            [relation] => Son
+            [birthdate] => 2000-04-18
+            [age] => 26
+            [sex] => Male
+            [education] => HIGHSCHOOL GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/RUEL_M_DAHAN_JR_2026-04-18_17-56-27.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 7831a638e20c2a29ca85bc48395f9c6f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RUEL_M_DAHAN_JR_2026-04-18_17-56-27.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23564
+            [resident_id] => 8552
+            [member_id] => 0237-03
+            [name] => PRECIOUS YZABELLE MAY M. DAHAN
+            [relation] => Daughter
+            [birthdate] => 2012-05-02
+            [age] => 13
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/PRECIOUS_YZABELLE_MAY_M_DAHAN_2026-04-18_17-56-27.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => c33de56e6fa4aa4d63fc40017d0ef814
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/PRECIOUS_YZABELLE_MAY_M_DAHAN_2026-04-18_17-56-27.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:20:03 --> Uploaded family member photo saved: uploads/family_photos/ROEL_A_DAHAN_2026-07-06_14-20-03.jpg for member: ROEL A. DAHAN
+DEBUG - 2026-07-06 14:20:03 --> Preserved existing family member photo: uploads/family_photos/RUEL_M_DAHAN_JR_2026-04-18_17-56-27.jpg
+DEBUG - 2026-07-06 14:20:03 --> Preserved existing family member photo: uploads/family_photos/PRECIOUS_YZABELLE_MAY_M_DAHAN_2026-04-18_17-56-27.jpg
+DEBUG - 2026-07-06 14:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:21:19 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23830
+            [resident_id] => 8556
+            [member_id] => 0241-01
+            [name] => MELODY H. DUMANGCAS
+            [relation] => WIFE
+            [birthdate] => 1982-12-29
+            [age] => 43
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => HOUSEWIFE
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e36fa71c5bc35c309750f232016f8d24
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:19:35
+            [updated_at] => 2026-07-06 14:19:35
+        )
+
+    [1] => Array
+        (
+            [id] => 23831
+            [resident_id] => 8556
+            [member_id] => 0241-02
+            [name] => MARY KAY DUMANGCAS
+            [relation] => STEP DAUGHTER
+            [birthdate] => 2002-10-27
+            [age] => 23
+            [sex] => Female
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d2bc24139456c500e138f8f0e4eeb1d3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:19:35
+            [updated_at] => 2026-07-06 14:19:35
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23832
+            [resident_id] => 8556
+            [member_id] => 0241-03
+            [name] => ALDY D. IBALE
+            [relation] => SON
+            [birthdate] => 2008-02-05
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => f3e3d4033ade333e424326cd07fb913d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:19:35
+            [updated_at] => 2026-07-06 14:19:35
+        )
+
+    [3] => Array
+        (
+            [id] => 23833
+            [resident_id] => 8556
+            [member_id] => 0241-04
+            [name] => ALMY KAY D. IBALE
+            [relation] => DAUGHTER
+            [birthdate] => 2010-06-03
+            [age] => 15
+            [sex] => Female
+            [education] => JUNIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a9d6e8166a91e1f546d90927bc452881
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:19:35
+            [updated_at] => 2026-07-06 14:19:35
+        )
+
+    [4] => Array
+        (
+            [id] => 23834
+            [resident_id] => 8556
+            [member_id] => 0241-05
+            [name] => CRIS AICEL D. IBALE
+            [relation] => SON
+            [birthdate] => 2015-08-07
+            [age] => 10
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => aa5c50bd19dc7ea62aca9d3ef8ffb04b
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:19:35
+            [updated_at] => 2026-07-06 14:19:35
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+        )
+
+    [5] => Array
+        (
+            [id] => 23835
+            [resident_id] => 8556
+            [member_id] => 0241-06
+            [name] => CRIS LAWRENCE
+            [relation] => SON
+            [birthdate] => 2017-09-25
+            [age] => 8
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 32aaa5636fe03674a0d24b17eb6f1d77
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:19:35
+            [updated_at] => 2026-07-06 14:19:35
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:21:31 --> Preserved existing family member photo: uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+DEBUG - 2026-07-06 14:21:31 --> Uploaded family member photo saved: uploads/family_photos/ALDY_D_IBALE_2026-07-06_14-21-31.jpg for member: ALDY D. IBALE
+DEBUG - 2026-07-06 14:21:31 --> Preserved existing family member photo: uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+DEBUG - 2026-07-06 14:21:31 --> Preserved existing family member photo: uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+DEBUG - 2026-07-06 14:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:26 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23823
+            [resident_id] => 8534
+            [member_id] => 0219-01
+            [name] => ROSALIN LUCILINARA SALON
+            [relation] => LIVE-IN PARTNER
+            [birthdate] => 2000-10-06
+            [age] => 25
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => HOUSEWIFE
+            [remarks] => 
+            [photo] => uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 30bb9d4e5641591ffeade1654ad547f1
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:16:59
+            [updated_at] => 2026-07-06 14:16:59
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23824
+            [resident_id] => 8534
+            [member_id] => 0219-02
+            [name] => RHYNA AMARAH SALON DUMANGCAS
+            [relation] => DAUGHTER
+            [birthdate] => 2018-12-08
+            [age] => 7
+            [sex] => Female
+            [education] => GRADE 2
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-07-06_14-16-59.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ccf2cca3fab3ee81f5c0d55b45c98c54
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:16:59
+            [updated_at] => 2026-07-06 14:16:59
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-07-06_14-16-59.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23825
+            [resident_id] => 8534
+            [member_id] => 0219-03
+            [name] => RHYS AMARI SALON DUMANGCAS
+            [relation] => SON
+            [birthdate] => 2021-07-11
+            [age] => 4
+            [sex] => Male
+            [education] => KINDERGARTEN
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 883564c9c2eb3c4eef8c3c0255364991
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:16:59
+            [updated_at] => 2026-07-06 14:16:59
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:36 --> Preserved existing family member photo: uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+DEBUG - 2026-07-06 14:22:36 --> Preserved existing family member photo: uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-07-06_14-16-59.jpg
+DEBUG - 2026-07-06 14:22:36 --> Uploaded family member photo saved: uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-07-06_14-22-36.jpg for member: RHYS AMARI SALON DUMANGCAS
+DEBUG - 2026-07-06 14:22:36 --> Deleted old family member photo: uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-04-18_17-17-54.jpg
+DEBUG - 2026-07-06 14:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:22:49 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23845
+            [resident_id] => 8534
+            [member_id] => 0219-01
+            [name] => ROSALIN LUCILINARA SALON
+            [relation] => LIVE-IN PARTNER
+            [birthdate] => 2000-10-06
+            [age] => 25
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => HOUSEWIFE
+            [remarks] => 
+            [photo] => uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 30bb9d4e5641591ffeade1654ad547f1
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:22:36
+            [updated_at] => 2026-07-06 14:22:36
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ROSALIN_LUCILINARA_SALON_2026-04-18_17-17-54.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23846
+            [resident_id] => 8534
+            [member_id] => 0219-02
+            [name] => RHYNA AMARAH SALON DUMANGCAS
+            [relation] => DAUGHTER
+            [birthdate] => 2018-12-08
+            [age] => 7
+            [sex] => Female
+            [education] => GRADE 2
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-07-06_14-16-59.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ccf2cca3fab3ee81f5c0d55b45c98c54
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:22:36
+            [updated_at] => 2026-07-06 14:22:36
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RHYNA_AMARAH_SALON_DUMANGCAS_2026-07-06_14-16-59.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23847
+            [resident_id] => 8534
+            [member_id] => 0219-03
+            [name] => RHYS AMARI SALON DUMANGCAS
+            [relation] => SON
+            [birthdate] => 2021-07-11
+            [age] => 4
+            [sex] => Male
+            [education] => KINDERGARTEN
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-07-06_14-22-36.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 883564c9c2eb3c4eef8c3c0255364991
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:22:36
+            [updated_at] => 2026-07-06 14:22:36
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RHYS_AMARI_SALON_DUMANGCAS_2026-07-06_14-22-36.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:23:18 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23839
+            [resident_id] => 8556
+            [member_id] => 0241-01
+            [name] => MELODY H. DUMANGCAS
+            [relation] => WIFE
+            [birthdate] => 1982-12-29
+            [age] => 43
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => HOUSEWIFE
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e36fa71c5bc35c309750f232016f8d24
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:21:31
+            [updated_at] => 2026-07-06 14:21:31
+        )
+
+    [1] => Array
+        (
+            [id] => 23840
+            [resident_id] => 8556
+            [member_id] => 0241-02
+            [name] => MARY KAY DUMANGCAS
+            [relation] => STEP DAUGHTER
+            [birthdate] => 2002-10-27
+            [age] => 23
+            [sex] => Female
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d2bc24139456c500e138f8f0e4eeb1d3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:21:31
+            [updated_at] => 2026-07-06 14:21:31
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23841
+            [resident_id] => 8556
+            [member_id] => 0241-03
+            [name] => ALDY D. IBALE
+            [relation] => SON
+            [birthdate] => 2008-02-05
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALDY_D_IBALE_2026-07-06_14-21-31.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => f3e3d4033ade333e424326cd07fb913d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:21:31
+            [updated_at] => 2026-07-06 14:21:31
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALDY_D_IBALE_2026-07-06_14-21-31.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23842
+            [resident_id] => 8556
+            [member_id] => 0241-04
+            [name] => ALMY KAY D. IBALE
+            [relation] => DAUGHTER
+            [birthdate] => 2010-06-03
+            [age] => 15
+            [sex] => Female
+            [education] => JUNIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a9d6e8166a91e1f546d90927bc452881
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:21:31
+            [updated_at] => 2026-07-06 14:21:31
+        )
+
+    [4] => Array
+        (
+            [id] => 23843
+            [resident_id] => 8556
+            [member_id] => 0241-05
+            [name] => CRIS AICEL D. IBALE
+            [relation] => SON
+            [birthdate] => 2015-08-07
+            [age] => 10
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => aa5c50bd19dc7ea62aca9d3ef8ffb04b
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:21:31
+            [updated_at] => 2026-07-06 14:21:31
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+        )
+
+    [5] => Array
+        (
+            [id] => 23844
+            [resident_id] => 8556
+            [member_id] => 0241-06
+            [name] => CRIS LAWRENCE
+            [relation] => SON
+            [birthdate] => 2017-09-25
+            [age] => 8
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 32aaa5636fe03674a0d24b17eb6f1d77
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:21:31
+            [updated_at] => 2026-07-06 14:21:31
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:25:03 --> Preserved existing family member photo: uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+DEBUG - 2026-07-06 14:25:03 --> Preserved existing family member photo: uploads/family_photos/ALDY_D_IBALE_2026-07-06_14-21-31.jpg
+DEBUG - 2026-07-06 14:25:03 --> Uploaded family member photo saved: uploads/family_photos/ALMIE_KAY_D_IBALE_2026-07-06_14-25-03.jpg for member: ALMIE KAY D. IBALE
+DEBUG - 2026-07-06 14:25:03 --> Preserved existing family member photo: uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+DEBUG - 2026-07-06 14:25:03 --> Preserved existing family member photo: uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+DEBUG - 2026-07-06 14:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:25:40 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23124
+            [resident_id] => 8415
+            [member_id] => 0075-01
+            [name] => ALVITHS L. IBALE
+            [relation] => Live-in Partner
+            [birthdate] => 1983-01-28
+            [age] => 43
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => Laborer
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => dab15ea9d01871755bef1a618db8de01
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [1] => Array
+        (
+            [id] => 23125
+            [resident_id] => 8415
+            [member_id] => 0075-02
+            [name] => MARYKEE H. DUMANGCAS
+            [relation] => Daughter
+            [birthdate] => 2002-10-27
+            [age] => 23
+            [sex] => Female
+            [education] => COLLEGE
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e2da847c2171c19acfb58f6841908389
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [2] => Array
+        (
+            [id] => 23126
+            [resident_id] => 8415
+            [member_id] => 0075-03
+            [name] => ADRIAN JARDIN
+            [relation] => Son-in-law
+            [birthdate] => 2003-02-13
+            [age] => 23
+            [sex] => Male
+            [education] => COLLEGE
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 780f722c3bc0859d1790088405b605c9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [3] => Array
+        (
+            [id] => 23127
+            [resident_id] => 8415
+            [member_id] => 0075-04
+            [name] => ALDY H. DUMANGCAS
+            [relation] => Son
+            [birthdate] => 2008-02-05
+            [age] => 18
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 07a40996e0d42d7e88753a56555ccb76
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [4] => Array
+        (
+            [id] => 23128
+            [resident_id] => 8415
+            [member_id] => 0075-05
+            [name] => ALZEKAN H. DUMANGCAS
+            [relation] => Daughter
+            [birthdate] => 2010-06-03
+            [age] => 15
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 6b9fa59d674919099d6cb6851154d496
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [5] => Array
+        (
+            [id] => 23129
+            [resident_id] => 8415
+            [member_id] => 0075-06
+            [name] => CHRIST ICEL DUMANGCAS
+            [relation] => Son
+            [birthdate] => 2015-08-07
+            [age] => 10
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 58b6ef6b266a42bc217aee2f356e3a12
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [6] => Array
+        (
+            [id] => 23130
+            [resident_id] => 8415
+            [member_id] => 0075-07
+            [name] => CHRIST LAURENCE DUMANGCAS
+            [relation] => Son
+            [birthdate] => 
+            [age] => 0
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 7f7ef86242bbf830207d48f4cb05743c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [7] => Array
+        (
+            [id] => 23131
+            [resident_id] => 8415
+            [member_id] => 0075-08
+            [name] => BRIANNA DUMANGCAS
+            [relation] => Daughter
+            [birthdate] => 2023-09-20
+            [age] => 2
+            [sex] => Female
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => c8f60b69a67bd9049ab68509a5ea2a50
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+)
+
+DEBUG - 2026-07-06 14:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:00 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23740
+            [resident_id] => 8403
+            [member_id] => 0063-01
+            [name] => RINS AMARI DUMANGCAS
+            [relation] => SON
+            [birthdate] => 2001-07-11
+            [age] => 24
+            [sex] => Male
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a5f601821954ff7c98891579afb7fb16
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 13:22:40
+            [updated_at] => 2026-04-19 13:22:40
+        )
+
+    [1] => Array
+        (
+            [id] => 23741
+            [resident_id] => 8403
+            [member_id] => 0063-02
+            [name] => LENE DUMANGCAS
+            [relation] => DAUGHTER
+            [birthdate] => 2009-08-04
+            [age] => 16
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 696335c7725248771543527c73caf62e
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 13:22:40
+            [updated_at] => 2026-04-19 13:22:40
+        )
+
+    [2] => Array
+        (
+            [id] => 23742
+            [resident_id] => 8403
+            [member_id] => 0063-03
+            [name] => RELYNA AMARAH DUMANGCAS
+            [relation] => DAUGHTER
+            [birthdate] => 2018-12-08
+            [age] => 7
+            [sex] => Female
+            [education] => ELEMENTARY
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fb2151ea9c30723954c7583d69b6d5ed
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 13:22:40
+            [updated_at] => 2026-04-19 13:22:40
+        )
+
+)
+
+DEBUG - 2026-07-06 14:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:36 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23848
+            [resident_id] => 8556
+            [member_id] => 0241-01
+            [name] => MELODY H. DUMANGCAS
+            [relation] => WIFE
+            [birthdate] => 1982-12-29
+            [age] => 43
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => HOUSEWIFE
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => e36fa71c5bc35c309750f232016f8d24
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:25:03
+            [updated_at] => 2026-07-06 14:25:03
+        )
+
+    [1] => Array
+        (
+            [id] => 23849
+            [resident_id] => 8556
+            [member_id] => 0241-02
+            [name] => MARY KAY DUMANGCAS
+            [relation] => STEP DAUGHTER
+            [birthdate] => 2002-10-27
+            [age] => 23
+            [sex] => Female
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d2bc24139456c500e138f8f0e4eeb1d3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:25:03
+            [updated_at] => 2026-07-06 14:25:03
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/MARY_KAY_DUMANGCAS_2026-04-18_18-11-09.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23850
+            [resident_id] => 8556
+            [member_id] => 0241-03
+            [name] => ALDY D. IBALE
+            [relation] => SON
+            [birthdate] => 2008-02-05
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALDY_D_IBALE_2026-07-06_14-21-31.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => f3e3d4033ade333e424326cd07fb913d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:25:03
+            [updated_at] => 2026-07-06 14:25:03
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALDY_D_IBALE_2026-07-06_14-21-31.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23851
+            [resident_id] => 8556
+            [member_id] => 0241-04
+            [name] => ALMIE KAY D. IBALE
+            [relation] => SON
+            [birthdate] => 2010-06-03
+            [age] => 15
+            [sex] => Male
+            [education] => JUNIOR HIGH SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALMIE_KAY_D_IBALE_2026-07-06_14-25-03.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a9d6e8166a91e1f546d90927bc452881
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:25:03
+            [updated_at] => 2026-07-06 14:25:03
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALMIE_KAY_D_IBALE_2026-07-06_14-25-03.jpg
+        )
+
+    [4] => Array
+        (
+            [id] => 23852
+            [resident_id] => 8556
+            [member_id] => 0241-05
+            [name] => CRIS AICEL D. IBALE
+            [relation] => SON
+            [birthdate] => 2015-08-07
+            [age] => 10
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => aa5c50bd19dc7ea62aca9d3ef8ffb04b
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:25:03
+            [updated_at] => 2026-07-06 14:25:03
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CRIS_AICEL_D_IBALE_2026-07-06_14-19-34.jpg
+        )
+
+    [5] => Array
+        (
+            [id] => 23853
+            [resident_id] => 8556
+            [member_id] => 0241-06
+            [name] => CRIS LAWRENCE
+            [relation] => SON
+            [birthdate] => 2017-09-25
+            [age] => 8
+            [sex] => Male
+            [education] => ELEMENTARY
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 32aaa5636fe03674a0d24b17eb6f1d77
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:25:03
+            [updated_at] => 2026-07-06 14:25:03
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CRIS_LAWRENCE_2026-07-06_14-19-34.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:14 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23542
+            [resident_id] => 8546
+            [member_id] => 0231-01
+            [name] => SONIA T. ALCANTAR
+            [relation] => Wife
+            [birthdate] => 1963-10-15
+            [age] => 62
+            [sex] => Female
+            [education] => HIGH SCHOOL LEVEL
+            [occupation] => House Wife
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1aec62009a5f434d19f5b00bacff5cdf
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+    [1] => Array
+        (
+            [id] => 23543
+            [resident_id] => 8546
+            [member_id] => 0231-02
+            [name] => CHRISTINE T. ALCANTAR
+            [relation] => Daughter
+            [birthdate] => 1998-12-21
+            [age] => 27
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => Government Employee
+            [remarks] => 
+            [photo] => uploads/family_photos/CHRISTINE_T_ALCANTAR_2026-04-18_17-47-22.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1b207671196f2148f105e4fba8178879
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CHRISTINE_T_ALCANTAR_2026-04-18_17-47-22.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23544
+            [resident_id] => 8546
+            [member_id] => 0231-03
+            [name] => MAY-ANN T. ALCANTAR
+            [relation] => Daughter
+            [birthdate] => 2001-05-04
+            [age] => 24
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/MAY-ANN_T_ALCANTAR_2026-04-18_17-47-22.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 79fa6a808f0060b837e01f6dd390fce9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/MAY-ANN_T_ALCANTAR_2026-04-18_17-47-22.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23545
+            [resident_id] => 8546
+            [member_id] => 0231-04
+            [name] => JAY-ANN T. ALCANTAR
+            [relation] => Granddaughter
+            [birthdate] => 2007-02-08
+            [age] => 19
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/JAY-ANN_T_ALCANTAR_2026-04-18_17-47-22.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ba90dd59ca6c8d88291c549da8b7d1a0
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/JAY-ANN_T_ALCANTAR_2026-04-18_17-47-22.jpg
+        )
+
+    [4] => Array
+        (
+            [id] => 23546
+            [resident_id] => 8546
+            [member_id] => 0231-05
+            [name] => KHIMJE JADMAN
+            [relation] => Grandson
+            [birthdate] => 2017-10-30
+            [age] => 8
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/KHIMJE_JADMAN_2026-04-18_17-47-22.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8cd0709682d197c35137c9df9dcd824d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/KHIMJE_JADMAN_2026-04-18_17-47-22.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:26 --> Uploaded family member photo saved: uploads/family_photos/SONIA_T_ALCANTAR_2026-07-06_14-27-26.jfif for member: SONIA T. ALCANTAR
+DEBUG - 2026-07-06 14:27:26 --> Preserved existing family member photo: uploads/family_photos/CHRISTINE_T_ALCANTAR_2026-04-18_17-47-22.jpg
+DEBUG - 2026-07-06 14:27:26 --> Preserved existing family member photo: uploads/family_photos/MAY-ANN_T_ALCANTAR_2026-04-18_17-47-22.jpg
+DEBUG - 2026-07-06 14:27:26 --> Preserved existing family member photo: uploads/family_photos/JAY-ANN_T_ALCANTAR_2026-04-18_17-47-22.jpg
+DEBUG - 2026-07-06 14:27:26 --> Preserved existing family member photo: uploads/family_photos/KHIMJE_JADMAN_2026-04-18_17-47-22.jpg
+DEBUG - 2026-07-06 14:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:27:56 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23801
+            [resident_id] => 8388
+            [member_id] => 0048-01
+            [name] => EDGAR QUIDIT
+            [relation] => HUSBAND
+            [birthdate] => 1985-10-04
+            [age] => 40
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => BUTCHER
+            [remarks] => 
+            [photo] => uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 754e129798a7b12460b1109216ad7148
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:14:01
+            [updated_at] => 2026-07-06 14:14:01
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+        )
+
+    [1] => Array
+        (
+            [id] => 23802
+            [resident_id] => 8388
+            [member_id] => 0048-02
+            [name] => ALYESHA FAYE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2007-02-22
+            [age] => 19
+            [sex] => Female
+            [education] => 1ST YEAR COLLEGE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 62aef9b4cdf319d840fd10c8a8b7f236
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:14:01
+            [updated_at] => 2026-07-06 14:14:01
+        )
+
+    [2] => Array
+        (
+            [id] => 23803
+            [resident_id] => 8388
+            [member_id] => 0048-03
+            [name] => ALLISON JEANNE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2011-01-05
+            [age] => 15
+            [sex] => Female
+            [education] => GRADE 9
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8aa5e3036218db111063f5f744e16092
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:14:01
+            [updated_at] => 2026-07-06 14:14:01
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+        )
+
+    [3] => Array
+        (
+            [id] => 23804
+            [resident_id] => 8388
+            [member_id] => 0048-04
+            [name] => ALMHEA ANGELICK QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2014-01-23
+            [age] => 12
+            [sex] => Female
+            [education] => GRADE 6
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d8534e828a16e6e6fbfd93c6bf804b37
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:14:01
+            [updated_at] => 2026-07-06 14:14:01
+        )
+
+    [4] => Array
+        (
+            [id] => 23805
+            [resident_id] => 8388
+            [member_id] => 0048-05
+            [name] => ALRHEA PATRAISE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2017-08-05
+            [age] => 8
+            [sex] => Female
+            [education] => GRADE 3
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8f5987524d7b54825c6044b5f916c053
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:14:01
+            [updated_at] => 2026-07-06 14:14:01
+        )
+
+    [5] => Array
+        (
+            [id] => 23806
+            [resident_id] => 8388
+            [member_id] => 0048-06
+            [name] => ALANA AISH QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2021-01-15
+            [age] => 5
+            [sex] => Female
+            [education] => PRE-SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 5097bf87412098927f764660dbd6f9aa
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:14:01
+            [updated_at] => 2026-07-06 14:14:01
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:09 --> Preserved existing family member photo: uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+DEBUG - 2026-07-06 14:28:09 --> Preserved existing family member photo: uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+DEBUG - 2026-07-06 14:28:09 --> Uploaded family member photo saved: uploads/family_photos/ALMHEA_ANGELICK_QUIDIT_2026-07-06_14-28-09.jfif for member: ALMHEA ANGELICK QUIDIT
+DEBUG - 2026-07-06 14:28:09 --> Preserved existing family member photo: uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+DEBUG - 2026-07-06 14:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:23 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23870
+            [resident_id] => 8388
+            [member_id] => 0048-01
+            [name] => EDGAR QUIDIT
+            [relation] => HUSBAND
+            [birthdate] => 1985-10-04
+            [age] => 40
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => BUTCHER
+            [remarks] => 
+            [photo] => uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 754e129798a7b12460b1109216ad7148
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:09
+            [updated_at] => 2026-07-06 14:28:09
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+        )
+
+    [1] => Array
+        (
+            [id] => 23871
+            [resident_id] => 8388
+            [member_id] => 0048-02
+            [name] => ALYESHA FAYE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2007-02-22
+            [age] => 19
+            [sex] => Female
+            [education] => 1ST YEAR COLLEGE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 62aef9b4cdf319d840fd10c8a8b7f236
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:09
+            [updated_at] => 2026-07-06 14:28:09
+        )
+
+    [2] => Array
+        (
+            [id] => 23872
+            [resident_id] => 8388
+            [member_id] => 0048-03
+            [name] => ALLISON JEANNE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2011-01-05
+            [age] => 15
+            [sex] => Female
+            [education] => GRADE 9
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8aa5e3036218db111063f5f744e16092
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:09
+            [updated_at] => 2026-07-06 14:28:09
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+        )
+
+    [3] => Array
+        (
+            [id] => 23873
+            [resident_id] => 8388
+            [member_id] => 0048-04
+            [name] => ALMHEA ANGELICK QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2014-01-23
+            [age] => 12
+            [sex] => Female
+            [education] => GRADE 6
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALMHEA_ANGELICK_QUIDIT_2026-07-06_14-28-09.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d8534e828a16e6e6fbfd93c6bf804b37
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:09
+            [updated_at] => 2026-07-06 14:28:09
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALMHEA_ANGELICK_QUIDIT_2026-07-06_14-28-09.jfif
+        )
+
+    [4] => Array
+        (
+            [id] => 23874
+            [resident_id] => 8388
+            [member_id] => 0048-05
+            [name] => ALRHEA PATRAISE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2017-08-05
+            [age] => 8
+            [sex] => Female
+            [education] => GRADE 3
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8f5987524d7b54825c6044b5f916c053
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:09
+            [updated_at] => 2026-07-06 14:28:09
+        )
+
+    [5] => Array
+        (
+            [id] => 23875
+            [resident_id] => 8388
+            [member_id] => 0048-06
+            [name] => ALANA AISH QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2021-01-15
+            [age] => 5
+            [sex] => Female
+            [education] => PRE-SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 5097bf87412098927f764660dbd6f9aa
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:09
+            [updated_at] => 2026-07-06 14:28:09
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:37 --> Preserved existing family member photo: uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+DEBUG - 2026-07-06 14:28:37 --> Preserved existing family member photo: uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+DEBUG - 2026-07-06 14:28:37 --> Preserved existing family member photo: uploads/family_photos/ALMHEA_ANGELICK_QUIDIT_2026-07-06_14-28-09.jfif
+DEBUG - 2026-07-06 14:28:37 --> Uploaded family member photo saved: uploads/family_photos/ALRHEA_PATRAISE_QUIDIT_2026-07-06_14-28-37.jfif for member: ALRHEA PATRAISE QUIDIT
+DEBUG - 2026-07-06 14:28:37 --> Preserved existing family member photo: uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+DEBUG - 2026-07-06 14:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:47 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23612
+            [resident_id] => 8569
+            [member_id] => 0254-01
+            [name] => PAZ V. LADAO
+            [relation] => Wife
+            [birthdate] => 1988-01-24
+            [age] => 38
+            [sex] => Female
+            [education] => VOCATIONAL HRM
+            [occupation] => House Wife
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fd8f30fe1b8b0e7d7df3ed24c2d76b25
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [1] => Array
+        (
+            [id] => 23613
+            [resident_id] => 8569
+            [member_id] => 0254-02
+            [name] => RECHIE MAE V. LADAO
+            [relation] => Daughter
+            [birthdate] => 2009-10-13
+            [age] => 16
+            [sex] => Female
+            [education] => HIGH SCHOOL LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/RECHIE_MAE_V_LADAO_2026-04-18_18-35-53.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fed6167d417b02afb315310d2905cade
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/RECHIE_MAE_V_LADAO_2026-04-18_18-35-53.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23614
+            [resident_id] => 8569
+            [member_id] => 0254-03
+            [name] => PRECTHENE JOY V. LADAO
+            [relation] => Daughter
+            [birthdate] => 2014-09-14
+            [age] => 11
+            [sex] => Female
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/PRECTHENE_JOY_V_LADAO_2026-04-18_18-35-53.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 6e54b4c9d7f7e522ef879070c99e0394
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/PRECTHENE_JOY_V_LADAO_2026-04-18_18-35-53.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23615
+            [resident_id] => 8569
+            [member_id] => 0254-04
+            [name] => FRITZ IAN V. LADAO
+            [relation] => Son
+            [birthdate] => 2016-12-31
+            [age] => 9
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/FRITZ_IAN_V_LADAO_2026-04-18_18-35-53.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 7d4495df835fe973a7173239db02cfa9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/FRITZ_IAN_V_LADAO_2026-04-18_18-35-53.jpg
+        )
+
+    [4] => Array
+        (
+            [id] => 23616
+            [resident_id] => 8569
+            [member_id] => 0254-05
+            [name] => CHRISTIAN KIN V. LADAO
+            [relation] => Son
+            [birthdate] => 2017-12-25
+            [age] => 8
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/CHRISTIAN_KIN_V_LADAO_2026-04-18_18-35-53.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 5ad72aa3887e93ac70ca37df20e697c4
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/CHRISTIAN_KIN_V_LADAO_2026-04-18_18-35-53.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:53 --> Uploaded family member photo saved: uploads/family_photos/PAZ_V_LADAO_2026-07-06_14-28-53.jfif for member: PAZ V. LADAO
+DEBUG - 2026-07-06 14:28:53 --> Preserved existing family member photo: uploads/family_photos/RECHIE_MAE_V_LADAO_2026-04-18_18-35-53.jpg
+DEBUG - 2026-07-06 14:28:53 --> Preserved existing family member photo: uploads/family_photos/PRECTHENE_JOY_V_LADAO_2026-04-18_18-35-53.jpg
+DEBUG - 2026-07-06 14:28:53 --> Preserved existing family member photo: uploads/family_photos/FRITZ_IAN_V_LADAO_2026-04-18_18-35-53.jpg
+DEBUG - 2026-07-06 14:28:53 --> Preserved existing family member photo: uploads/family_photos/CHRISTIAN_KIN_V_LADAO_2026-04-18_18-35-53.jpg
+DEBUG - 2026-07-06 14:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:02 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23820
+            [resident_id] => 8543
+            [member_id] => 0228-01
+            [name] => ANTONIA ATASAN ABUROT
+            [relation] => LIVE IN-PARTNER
+            [birthdate] => 1968-06-20
+            [age] => 57
+            [sex] => Female
+            [education] => ELEMENTARY LEVEL
+            [occupation] => VENDOR
+            [remarks] => 
+            [photo] => uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1cb86e75e4dc544167d9b34adda1c07f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:16:04
+            [updated_at] => 2026-07-06 14:16:04
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23821
+            [resident_id] => 8543
+            [member_id] => 0228-02
+            [name] => HERRON ABUROT
+            [relation] => STEP-SON
+            [birthdate] => 1997-04-07
+            [age] => 29
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => VENDOR
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a91d7f03cb54693eed7c13dc08792205
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:16:04
+            [updated_at] => 2026-07-06 14:16:04
+        )
+
+    [2] => Array
+        (
+            [id] => 23822
+            [resident_id] => 8543
+            [member_id] => 0228-03
+            [name] => NIÑO ALCANTAR
+            [relation] => SON
+            [birthdate] => 2009-07-19
+            [age] => 16
+            [sex] => Male
+            [education] => JUNIOR HIGH SCHOOL COMPLETER
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => uploads/family_photos/NI_O_ALCANTAR_2026-07-06_14-16-04.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 23be80b6423b5cbc95b34ec3f2b70aab
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:16:04
+            [updated_at] => 2026-07-06 14:16:04
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/NI_O_ALCANTAR_2026-07-06_14-16-04.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:21 --> Preserved existing family member photo: uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+DEBUG - 2026-07-06 14:29:21 --> Preserved existing family member photo: uploads/family_photos/NI_O_ALCANTAR_2026-07-06_14-16-04.jpg
+DEBUG - 2026-07-06 14:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:29:55 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23876
+            [resident_id] => 8388
+            [member_id] => 0048-01
+            [name] => EDGAR QUIDIT
+            [relation] => HUSBAND
+            [birthdate] => 1985-10-04
+            [age] => 40
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => BUTCHER
+            [remarks] => 
+            [photo] => uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 754e129798a7b12460b1109216ad7148
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:37
+            [updated_at] => 2026-07-06 14:28:37
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+        )
+
+    [1] => Array
+        (
+            [id] => 23877
+            [resident_id] => 8388
+            [member_id] => 0048-02
+            [name] => ALYESHA FAYE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2007-02-22
+            [age] => 19
+            [sex] => Female
+            [education] => 1ST YEAR COLLEGE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 62aef9b4cdf319d840fd10c8a8b7f236
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:37
+            [updated_at] => 2026-07-06 14:28:37
+        )
+
+    [2] => Array
+        (
+            [id] => 23878
+            [resident_id] => 8388
+            [member_id] => 0048-03
+            [name] => ALLISON JEANNE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2011-01-05
+            [age] => 15
+            [sex] => Female
+            [education] => GRADE 9
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8aa5e3036218db111063f5f744e16092
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:37
+            [updated_at] => 2026-07-06 14:28:37
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+        )
+
+    [3] => Array
+        (
+            [id] => 23879
+            [resident_id] => 8388
+            [member_id] => 0048-04
+            [name] => ALMHEA ANGELICK QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2014-01-23
+            [age] => 12
+            [sex] => Female
+            [education] => GRADE 6
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALMHEA_ANGELICK_QUIDIT_2026-07-06_14-28-09.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d8534e828a16e6e6fbfd93c6bf804b37
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:37
+            [updated_at] => 2026-07-06 14:28:37
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALMHEA_ANGELICK_QUIDIT_2026-07-06_14-28-09.jfif
+        )
+
+    [4] => Array
+        (
+            [id] => 23880
+            [resident_id] => 8388
+            [member_id] => 0048-05
+            [name] => ALRHEA PATRAISE QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2017-08-05
+            [age] => 8
+            [sex] => Female
+            [education] => GRADE 3
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALRHEA_PATRAISE_QUIDIT_2026-07-06_14-28-37.jfif
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8f5987524d7b54825c6044b5f916c053
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:37
+            [updated_at] => 2026-07-06 14:28:37
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALRHEA_PATRAISE_QUIDIT_2026-07-06_14-28-37.jfif
+        )
+
+    [5] => Array
+        (
+            [id] => 23881
+            [resident_id] => 8388
+            [member_id] => 0048-06
+            [name] => ALANA AISH QUIDIT
+            [relation] => DAUGHTER
+            [birthdate] => 2021-01-15
+            [age] => 5
+            [sex] => Female
+            [education] => PRE-SCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 5097bf87412098927f764660dbd6f9aa
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-07-06 14:28:37
+            [updated_at] => 2026-07-06 14:28:37
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+        )
+
+)
+
+DEBUG - 2026-07-06 14:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:30:03 --> Preserved existing family member photo: uploads/family_photos/EDGAR_QUIDIT_2026-07-06_14-13-05.jfif
+DEBUG - 2026-07-06 14:30:03 --> Uploaded family member photo saved: uploads/family_photos/ALYESHA_FAYE_QUIDIT_2026-07-06_14-30-03.jfif for member: ALYESHA FAYE QUIDIT
+DEBUG - 2026-07-06 14:30:03 --> Preserved existing family member photo: uploads/family_photos/ALLISON_JEANNE_QUIDIT_2026-07-06_14-14-01.jfif
+DEBUG - 2026-07-06 14:30:03 --> Preserved existing family member photo: uploads/family_photos/ALMHEA_ANGELICK_QUIDIT_2026-07-06_14-28-09.jfif
+DEBUG - 2026-07-06 14:30:03 --> Preserved existing family member photo: uploads/family_photos/ALRHEA_PATRAISE_QUIDIT_2026-07-06_14-28-37.jfif
+DEBUG - 2026-07-06 14:30:03 --> Preserved existing family member photo: uploads/family_photos/ALANA_AISH_QUIDIT_2026-04-18_17-42-08.jpg
+DEBUG - 2026-07-06 14:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 14:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-06 15:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

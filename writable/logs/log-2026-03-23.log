@@ -1,0 +1,5206 @@
+DEBUG - 2026-03-23 07:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 07:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 07:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 07:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 09:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 09:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 09:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-23 10:38:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "23,22"
+[Method: GET, Route: beneficiaries/export-selected/23,22]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('beneficiaries/export-selected/23,22')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('beneficiaries/export-selected/23,22')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-03-23 10:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 10:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 11:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 11:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 11:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 12:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 12:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 12:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 12:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 12:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-23 13:44:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "23,22"
+[Method: GET, Route: residentportal/bulk-qr/23,22]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('residentportal/bulk-qr/23,22')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('residentportal/bulk-qr/23,22')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-03-23 13:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 13:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:03:20 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 73
+            [resident_id] => 19
+            [member_id] => 0003-01
+            [name] => Isah Belle Marie Guidaben
+            [relation] => Mother
+            [birthdate] => 2003-08-01
+            [age] => 22
+            [sex] => Female
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561257_9a9016e3e02b0bfab9af.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 49f6353b9926a1ad1662fcda0b19cf209d8cfb4985896d130f280b942a619c29
+            [qr_code_id] => 69b66331a81e8_0
+            [status] => active
+            [created_at] => 2026-03-15 15:54:48
+            [updated_at] => 2026-03-15 15:54:48
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561257_9a9016e3e02b0bfab9af.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 74
+            [resident_id] => 19
+            [member_id] => 0003-02
+            [name] => Godwin Lapuz
+            [relation] => Son
+            [birthdate] => 2010-05-18
+            [age] => 15
+            [sex] => Male
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561102_5fa0dddae65e19ff1772.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => dea768adcd399ada750ba1735b637ed4722e4760b88798d8666bee5d8237ec25
+            [qr_code_id] => 69b66331a81fa_1
+            [status] => active
+            [created_at] => 2026-03-15 15:54:48
+            [updated_at] => 2026-03-15 15:54:48
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561102_5fa0dddae65e19ff1772.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 75
+            [resident_id] => 19
+            [member_id] => 0003-03
+            [name] => Chrisjun Sabote
+            [relation] => Son
+            [birthdate] => 2010-06-08
+            [age] => 15
+            [sex] => Male
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561288_2395098a576a5443774d.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 22a23e3e924b97227ca1ad58912fb0e806f1adfcb97432f050ebbab18bf3cfcc
+            [qr_code_id] => 69b66331a9994_2
+            [status] => active
+            [created_at] => 2026-03-15 15:54:48
+            [updated_at] => 2026-03-15 15:54:48
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561288_2395098a576a5443774d.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 76
+            [resident_id] => 19
+            [member_id] => 0003-04
+            [name] => Yzrah Hushneah Obsid
+            [relation] => Daugther
+            [birthdate] => 2006-06-06
+            [age] => 19
+            [sex] => Female
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561288_7b8b3b56b0e0619c6ddc.png
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fe132a53133bcdadf0d4202fe5f69dbdea89f5d08bb2fff76fcc2be4b18974a8
+            [qr_code_id] => 69b66331a99a2_3
+            [status] => active
+            [created_at] => 2026-03-15 15:54:48
+            [updated_at] => 2026-03-15 15:54:48
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561288_7b8b3b56b0e0619c6ddc.png
+        )
+
+)
+
+DEBUG - 2026-03-23 14:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:03:31 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 77
+            [resident_id] => 19
+            [member_id] => 0003-01
+            [name] => Isah Belle Marie Guidaben
+            [relation] => Mother
+            [birthdate] => 2003-08-01
+            [age] => 22
+            [sex] => Female
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561257_9a9016e3e02b0bfab9af.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 49f6353b9926a1ad1662fcda0b19cf209d8cfb4985896d130f280b942a619c29
+            [qr_code_id] => 69b66331a81e8_0
+            [status] => active
+            [created_at] => 2026-03-23 14:03:27
+            [updated_at] => 2026-03-23 14:03:27
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561257_9a9016e3e02b0bfab9af.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 78
+            [resident_id] => 19
+            [member_id] => 0003-02
+            [name] => Godwin Lapuz
+            [relation] => Son
+            [birthdate] => 2010-05-18
+            [age] => 15
+            [sex] => Male
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561102_5fa0dddae65e19ff1772.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => dea768adcd399ada750ba1735b637ed4722e4760b88798d8666bee5d8237ec25
+            [qr_code_id] => 69b66331a81fa_1
+            [status] => active
+            [created_at] => 2026-03-23 14:03:27
+            [updated_at] => 2026-03-23 14:03:27
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561102_5fa0dddae65e19ff1772.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 79
+            [resident_id] => 19
+            [member_id] => 0003-03
+            [name] => Chrisjun Sabote
+            [relation] => Son
+            [birthdate] => 2010-06-08
+            [age] => 15
+            [sex] => Male
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561288_2395098a576a5443774d.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 22a23e3e924b97227ca1ad58912fb0e806f1adfcb97432f050ebbab18bf3cfcc
+            [qr_code_id] => 69b66331a9994_2
+            [status] => active
+            [created_at] => 2026-03-23 14:03:27
+            [updated_at] => 2026-03-23 14:03:27
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561288_2395098a576a5443774d.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 80
+            [resident_id] => 19
+            [member_id] => 0003-04
+            [name] => Yzrah Hushneah Obsid
+            [relation] => Daugther
+            [birthdate] => 2006-06-06
+            [age] => 19
+            [sex] => Female
+            [education] => Grad
+            [occupation] => None
+            [remarks] => 
+            [photo] => uploads/family_photos/1773561288_7b8b3b56b0e0619c6ddc.png
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => fe132a53133bcdadf0d4202fe5f69dbdea89f5d08bb2fff76fcc2be4b18974a8
+            [qr_code_id] => 69b66331a99a2_3
+            [status] => active
+            [created_at] => 2026-03-23 14:03:27
+            [updated_at] => 2026-03-23 14:03:27
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/1773561288_7b8b3b56b0e0619c6ddc.png
+        )
+
+)
+
+DEBUG - 2026-03-23 14:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-23 14:16:06 --> Error: Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setCellValueByColumnAndRow()
+[Method: GET, Route: beneficiaries/export-all-excel]
+in APPPATH\Controllers\Beneficiaries.php on line 902.
+ 1 APPPATH\Controllers\Beneficiaries.php(1034): App\Controllers\Beneficiaries->exportToExcel('16,17,19,21,22,23')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->exportAllToExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-03-23 14:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 14:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 16:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 16:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 16:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 16:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 16:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-23 17:04:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/main.php"
+[Method: GET, Route: beneficiaries/import]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/main.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('templates/main', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/import', [], true)
+ 4 APPPATH\Controllers\Beneficiaries.php(1227): view('beneficiaries/import')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->import()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-03-23 17:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:18 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-03-23 17:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:23:02 --> Excel import - Total rows: 56
+DEBUG - 2026-03-23 17:23:02 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+CATARMAN
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+SINGLE
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+ROSALIA LUZANO
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+11-30--0001
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+CATARMAN
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:23:02 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:23:02 --> Data start row: 7
+DEBUG - 2026-03-23 17:23:02 --> Location section not found at expected position. Looking for 'LOCATION' in rows...
+DEBUG - 2026-03-23 17:23:02 --> Found location section at row 3
+DEBUG - 2026-03-23 17:23:02 --> Head row 0: Array
+(
+    [0] => 7. LAST NAME
+MICULOB
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 15. CIVIL STATUS
+SINGLE
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 16. MOTHER'S MAIDEN NAME
+ROSALIA LUZANO
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+WARNING - 2026-03-23 17:23:02 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in APPPATH\Controllers\Beneficiaries.php on line 1662.
+ 1 APPPATH\Controllers\Beneficiaries.php(1662): preg_match('/(\\d+(?:\\.\\d+)?)/', null, null)
+ 2 APPPATH\Controllers\Beneficiaries.php(1497): App\Controllers\Beneficiaries->extractNumericFromHeadRow([...], 6)
+ 3 APPPATH\Controllers\Beneficiaries.php(1328): App\Controllers\Beneficiaries->parseFacedCard([...], 6)
+ 4 APPPATH\Controllers\Beneficiaries.php(1265): App\Controllers\Beneficiaries->processExcelImport('C:\\Users\\Richard Miculob\\Documents\\ResQR\\writable\\uploads/1774257782_ead1a91aa24d85b2d49c.xlsx')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->upload()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+WARNING - 2026-03-23 17:23:02 --> [DEPRECATED] preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in APPPATH\Controllers\Beneficiaries.php on line 1507.
+ 1 APPPATH\Controllers\Beneficiaries.php(1507): preg_match('/(\\d{11})/', null, null)
+ 2 APPPATH\Controllers\Beneficiaries.php(1328): App\Controllers\Beneficiaries->parseFacedCard([...], 6)
+ 3 APPPATH\Controllers\Beneficiaries.php(1265): App\Controllers\Beneficiaries->processExcelImport('C:\\Users\\Richard Miculob\\Documents\\ResQR\\writable\\uploads/1774257782_ead1a91aa24d85b2d49c.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->upload()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-03-23 17:23:02 --> Extracted head data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => SINGLE
+    [mother_maiden_name] => 
+    [first_name] => RICHARD
+    [religion] => 17. RELIGION
+    [occupation] => 
+    [middle_name] => VICTOR
+    [name_extension] => 
+    [birthdate] => 
+    [age] => 
+    [birthplace] => 13. BIRTHPLACE
+    [sex] => 
+    [monthly_income] => 0
+    [id_card_presented] => 
+    [id_card_number] => 21. ID CARD NUMBER
+    [permanent_address] => 23. PERMANENT ADDRESS: 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Found FAMILY INFORMATION at row 14, data starts at 16
+DEBUG - 2026-03-23 17:23:02 --> Found family member: RICHARD MICULOB (relation: MOTHER)
+DEBUG - 2026-03-23 17:23:02 --> Found family member: 26. VULNERABLE MEMBERS:
+Older Persons: 0   Pregnant: 0   Lactating: 0   PWD: 0 (relation: )
+DEBUG - 2026-03-23 17:23:02 --> Found family member: Signature/Thumbmark of Family Head
+
+
+RICHARD VICTOR MICULOB (relation: Date Registered
+03-23-2026)
+DEBUG - 2026-03-23 17:23:02 --> Found family member: 29. DATA PRIVACY DECLARATION – All data and information indicated herein shall be used for identification purposes for the implementation of DRRM programs, projects and activities and its disclosure shall be in compliance to RA 10173 (Data Privacy Act of 2012). (relation: )
+DEBUG - 2026-03-23 17:23:02 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:23:02 --> Final parsed data - Name: RICHARD MICULOB, Family members: 4
+DEBUG - 2026-03-23 17:23:02 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => SINGLE
+    [mother_maiden_name] => 
+    [first_name] => RICHARD
+    [religion] => 17. RELIGION
+    [occupation] => 
+    [middle_name] => VICTOR
+    [name_extension] => 
+    [birthdate] => 
+    [age] => 
+    [birthplace] => 13. BIRTHPLACE
+    [sex] => 
+    [monthly_income] => 0
+    [id_card_presented] => 
+    [id_card_number] => 21. ID CARD NUMBER
+    [permanent_address] => 23. PERMANENT ADDRESS: 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [family_members] => Array
+        (
+            [0] => Array
+                (
+                    [name] => RICHARD MICULOB
+                    [relation] => MOTHER
+                    [birthdate] => 2026-03-23
+                    [age] => 0
+                    [sex] => MALE
+                    [education] => 
+                    [occupation] => 
+                    [remarks] => 
+                )
+
+            [1] => Array
+                (
+                    [name] => 26. VULNERABLE MEMBERS:
+Older Persons: 0   Pregnant: 0   Lactating: 0   PWD: 0
+                    [relation] => 
+                    [birthdate] => 27. HOUSE OWNERSHIP:   ☑ Owner  ☐ Renter  ☐ Sharer
+28. SHELTER DAMAGE:    ☐ Partially Damaged   ☐ Totally Damaged
+                    [age] => 
+                    [sex] => 
+                    [education] => 
+                    [occupation] => 
+                    [remarks] => 
+                )
+
+            [2] => Array
+                (
+                    [name] => Signature/Thumbmark of Family Head
+
+
+RICHARD VICTOR MICULOB
+                    [relation] => Date Registered
+03-23-2026
+                    [birthdate] => Name/Signature of Brgy. Captain
+
+RICHARD MICULOB
+                    [age] => 
+                    [sex] => 
+                    [education] => 
+                    [occupation] => 
+                    [remarks] => 
+                )
+
+            [3] => Array
+                (
+                    [name] => 29. DATA PRIVACY DECLARATION – All data and information indicated herein shall be used for identification purposes for the implementation of DRRM programs, projects and activities and its disclosure shall be in compliance to RA 10173 (Data Privacy Act of 2012).
+                    [relation] => 
+                    [birthdate] => 
+                    [age] => 
+                    [sex] => 
+                    [education] => 
+                    [occupation] => 
+                    [remarks] => 
+                )
+
+        )
+
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Inserted resident ID: 31, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:23:02 --> Inserted family member: RICHARD MICULOB
+DEBUG - 2026-03-23 17:23:02 --> Inserted family member: 26. VULNERABLE MEMBERS:
+Older Persons: 0   Pregnant: 0   Lactating: 0   PWD: 0
+DEBUG - 2026-03-23 17:23:02 --> Inserted family member: Signature/Thumbmark of Family Head
+
+
+RICHARD VICTOR MICULOB
+DEBUG - 2026-03-23 17:23:02 --> Inserted family member: 29. DATA PRIVACY DECLARATION – All data and information indicated herein shall be used for identification purposes for the implementation of DRRM programs, projects and activities and its disclosure shall be in compliance to RA 10173 (Data Privacy Act of 2012).
+DEBUG - 2026-03-23 17:23:02 --> Checking row 36: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:23:02 --> Found 'HEAD OF THE FAMILY' at row 36, column 0
+DEBUG - 2026-03-23 17:23:02 --> parseFacedCard called with startRow: 36
+ERROR - 2026-03-23 17:23:02 --> Not enough rows after header at row 36. Total rows: 56
+DEBUG - 2026-03-23 17:23:02 --> Parsed resident data: 
+ERROR - 2026-03-23 17:23:02 --> Card at row 37: Missing required fields (first_name or last_name)
+DEBUG - 2026-03-23 17:23:02 --> Import completed. Imported: 1, Errors: 1
+DEBUG - 2026-03-23 17:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:06 --> Excel import - Total rows: 56
+DEBUG - 2026-03-23 17:25:06 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+CATARMAN
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+SINGLE
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+ROSALIA LUZANO
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+11-30--0001
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+CATARMAN
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:25:06 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:25:06 --> Data start row: 7
+DEBUG - 2026-03-23 17:25:06 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:25:06 --> Final parsed data - Name: RICHARD MICULOB, Family members: 0
+DEBUG - 2026-03-23 17:25:06 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => SINGLE
+    [mother_maiden_name] => ROSALIA LUZANO
+    [first_name] => RICHARD
+    [religion] => 17. RELIGION
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 
+    [age] => 0
+    [birthplace] => 13. BIRTHPLACE
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+        )
+
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Inserted resident ID: 32, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:25:06 --> Checking row 36: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:06 --> Found 'HEAD OF THE FAMILY' at row 36, column 0
+DEBUG - 2026-03-23 17:25:06 --> parseFacedCard called with startRow: 36
+ERROR - 2026-03-23 17:25:06 --> Not enough rows after header at row 36. Total rows: 56
+DEBUG - 2026-03-23 17:25:06 --> Parsed resident data: 
+ERROR - 2026-03-23 17:25:06 --> Card at row 37: Missing required fields (first_name or last_name)
+DEBUG - 2026-03-23 17:25:06 --> Import completed. Imported: 1, Errors: 1
+DEBUG - 2026-03-23 17:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:13 --> Family members with file check: Array
+(
+)
+
+DEBUG - 2026-03-23 17:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:36 --> Excel import - Total rows: 56
+DEBUG - 2026-03-23 17:25:36 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+CATARMAN
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+SINGLE
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+ROSALIA LUZANO
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+11-30--0001
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+CATARMAN
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:25:36 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:25:36 --> Data start row: 7
+DEBUG - 2026-03-23 17:25:36 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:25:36 --> Final parsed data - Name: RICHARD MICULOB, Family members: 0
+DEBUG - 2026-03-23 17:25:36 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => SINGLE
+    [mother_maiden_name] => ROSALIA LUZANO
+    [first_name] => RICHARD
+    [religion] => 17. RELIGION
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 
+    [age] => 0
+    [birthplace] => 13. BIRTHPLACE
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+        )
+
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Inserted resident ID: 33, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:25:36 --> Checking row 36: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:25:36 --> Found 'HEAD OF THE FAMILY' at row 36, column 0
+DEBUG - 2026-03-23 17:25:36 --> parseFacedCard called with startRow: 36
+ERROR - 2026-03-23 17:25:36 --> Not enough rows after header at row 36. Total rows: 56
+DEBUG - 2026-03-23 17:25:36 --> Parsed resident data: 
+ERROR - 2026-03-23 17:25:36 --> Card at row 37: Missing required fields (first_name or last_name)
+DEBUG - 2026-03-23 17:25:36 --> Import completed. Imported: 1, Errors: 1
+DEBUG - 2026-03-23 17:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:45 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:26:45 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:26:45 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:26:45 --> parseFacedCard called with startRow: 6
+ERROR - 2026-03-23 17:26:45 --> Not enough rows after header at row 6. Total rows: 26
+DEBUG - 2026-03-23 17:26:45 --> Parsed resident data: 
+ERROR - 2026-03-23 17:26:45 --> Card at row 7: Missing required fields (first_name or last_name)
+DEBUG - 2026-03-23 17:26:45 --> Import completed. Imported: 0, Errors: 1
+DEBUG - 2026-03-23 17:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:27:04 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:27:04 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:27:04 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:27:04 --> parseFacedCard called with startRow: 6
+ERROR - 2026-03-23 17:27:04 --> Not enough rows after header at row 6. Total rows: 26
+DEBUG - 2026-03-23 17:27:04 --> Parsed resident data: 
+ERROR - 2026-03-23 17:27:04 --> Card at row 7: Missing required fields (first_name or last_name)
+DEBUG - 2026-03-23 17:27:04 --> Import completed. Imported: 0, Errors: 1
+DEBUG - 2026-03-23 17:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:29 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:29:29 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:29:29 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:29:29 --> Data start row: 7, Available rows: 19
+DEBUG - 2026-03-23 17:29:29 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:29:29 --> Final parsed data - Name: RICHARD MICULOB, Family members: 0
+DEBUG - 2026-03-23 17:29:29 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => 15. CIVIL STATUS
+    [mother_maiden_name] => 16. MOTHER'S MAIDEN NAME
+    [first_name] => RICHARD
+    [religion] => CATHOLIC
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 2026-03-23
+    [age] => 0
+    [birthplace] => CAMIGUIN GENERAL HOSPITAL
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+        )
+
+)
+
+DEBUG - 2026-03-23 17:29:29 --> Inserted resident ID: 35, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:29:29 --> Import completed. Imported: 1, Errors: 0
+DEBUG - 2026-03-23 17:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:29:54 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:29:54 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:29:54 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:29:54 --> Data start row: 7, Available rows: 19
+DEBUG - 2026-03-23 17:29:54 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:29:54 --> Final parsed data - Name: RICHARD MICULOB, Family members: 0
+DEBUG - 2026-03-23 17:29:54 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => 15. CIVIL STATUS
+    [mother_maiden_name] => 16. MOTHER'S MAIDEN NAME
+    [first_name] => RICHARD
+    [religion] => CATHOLIC
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 2026-03-23
+    [age] => 0
+    [birthplace] => CAMIGUIN GENERAL HOSPITAL
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+        )
+
+)
+
+DEBUG - 2026-03-23 17:29:54 --> Inserted resident ID: 36, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:29:54 --> Import completed. Imported: 1, Errors: 0
+DEBUG - 2026-03-23 17:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:32:22 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:32:22 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:32:22 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:32:22 --> Data start row: 7, Available rows: 19
+DEBUG - 2026-03-23 17:32:22 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:32:22 --> Final parsed data - Name: RICHARD MICULOB, Family members: 0
+DEBUG - 2026-03-23 17:32:22 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => 15. CIVIL STATUS
+    [mother_maiden_name] => 16. MOTHER'S MAIDEN NAME
+    [first_name] => RICHARD
+    [religion] => CATHOLIC
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 2026-03-23
+    [age] => 0
+    [birthplace] => CAMIGUIN GENERAL HOSPITAL
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+        )
+
+)
+
+DEBUG - 2026-03-23 17:32:22 --> Inserted resident ID: 37, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:32:22 --> Import completed. Imported: 1, Errors: 0
+DEBUG - 2026-03-23 17:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:36:31 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:36:31 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:36:31 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:36:31 --> Data start row: 7, Available rows: 19
+DEBUG - 2026-03-23 17:36:31 --> FAMILY INFORMATION section not found
+DEBUG - 2026-03-23 17:36:31 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:36:31 --> Final parsed data - Name: RICHARD MICULOB, Family members: 0
+DEBUG - 2026-03-23 17:36:31 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => 15. CIVIL STATUS
+    [mother_maiden_name] => 16. MOTHER'S MAIDEN NAME
+    [first_name] => RICHARD
+    [religion] => CATHOLIC
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 2026-03-23
+    [age] => 0
+    [birthplace] => CAMIGUIN GENERAL HOSPITAL
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+        )
+
+)
+
+DEBUG - 2026-03-23 17:36:31 --> Inserted resident ID: 38, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:36:31 --> Import completed. Imported: 1, Errors: 0
+DEBUG - 2026-03-23 17:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:37:34 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:37:34 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:37:34 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:37:34 --> Data start row: 7, Available rows: 19
+DEBUG - 2026-03-23 17:37:34 --> Searching for FAMILY INFORMATION from row 15 to 25
+DEBUG - 2026-03-23 17:37:34 --> Row 15: 'FAMILY MEMBERS
+(Last Name, First Name)'
+DEBUG - 2026-03-23 17:37:34 --> Row 16: 'RICHARD MICULOB'
+DEBUG - 2026-03-23 17:37:34 --> Row 21: '26. VULNERABLE MEMBERS:
+Older Persons: 0   Pregnan'
+DEBUG - 2026-03-23 17:37:34 --> Row 23: 'Signature/Thumbmark of Family Head
+
+
+RICHARD VICTO'
+DEBUG - 2026-03-23 17:37:34 --> Row 25: '29. DATA PRIVACY DECLARATION – All data and info'
+DEBUG - 2026-03-23 17:37:34 --> FAMILY INFORMATION section not found
+DEBUG - 2026-03-23 17:37:34 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:37:34 --> Final parsed data - Name: RICHARD MICULOB, Family members: 0
+DEBUG - 2026-03-23 17:37:34 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => 15. CIVIL STATUS
+    [mother_maiden_name] => 16. MOTHER'S MAIDEN NAME
+    [first_name] => RICHARD
+    [religion] => CATHOLIC
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 2026-03-23
+    [age] => 0
+    [birthplace] => CAMIGUIN GENERAL HOSPITAL
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+        )
+
+)
+
+DEBUG - 2026-03-23 17:37:34 --> Inserted resident ID: 39, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:37:34 --> Import completed. Imported: 1, Errors: 0
+DEBUG - 2026-03-23 17:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:38:55 --> Excel import - Total rows: 26
+DEBUG - 2026-03-23 17:38:55 --> Excel import - First 10 rows: Array
+(
+    [0] => Array
+        (
+            [0] => DSWD Logo
+            [1] => 
+            [2] => Republic of the Philippines
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => THIS CARD IS NOT FOR SALE
+            [14] => 
+            [15] => 
+        )
+
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => Department of Social Welfare and Development
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => BENEFICIARY'S COPY
+            [14] => 
+            [15] => 
+        )
+
+    [2] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => SERIAL NUMBER: 0001
+            [14] => 
+            [15] => 
+        )
+
+    [3] => Array
+        (
+            [0] => LOCATION OF THE AFFECTED FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [4] => Array
+        (
+            [0] => 1. REGION
+CAMIGUIN
+            [1] => 
+            [2] => 
+            [3] => 2. PROVINCE
+CAMIGUIN
+            [4] => 
+            [5] => 
+            [6] => 3. DISTRICT
+
+            [7] => 
+            [8] => 
+            [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+            [10] => 
+            [11] => 
+            [12] => 5. BARANGAY
+BONBON
+            [13] => 
+            [14] => 6. EVACUATION CENTER/SITE
+BONBON
+            [15] => 
+        )
+
+    [5] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [6] => Array
+        (
+            [0] => HEAD OF THE FAMILY
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [7] => Array
+        (
+            [0] => 7. LAST NAME
+MICULOB
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 15. CIVIL STATUS
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 16. MOTHER'S MAIDEN NAME
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [8] => Array
+        (
+            [0] => 8. FIRST NAME
+RICHARD
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 17. RELIGION
+CATHOLIC
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 18. OCCUPATION
+NONE
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+    [9] => Array
+        (
+            [0] => 9. MIDDLE NAME
+VICTOR
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 10. NAME EXT.
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 11. BIRTHDATE
+03-23-2026
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 12. AGE
+0
+            [13] => 
+            [14] => 
+            [15] => 
+        )
+
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Checking row 0: Array
+(
+    [0] => DSWD Logo
+    [1] => 
+    [2] => Republic of the Philippines
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => THIS CARD IS NOT FOR SALE
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Checking row 1: Array
+(
+    [0] => 
+    [1] => 
+    [2] => Department of Social Welfare and Development
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => BENEFICIARY'S COPY
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Checking row 2: Array
+(
+    [0] => 
+    [1] => 
+    [2] => FAMILY ASSISTANCE CARD IN EMERGENCIES AND DISASTERS (FACED)
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => SERIAL NUMBER: 0001
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Checking row 3: Array
+(
+    [0] => LOCATION OF THE AFFECTED FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Checking row 4: Array
+(
+    [0] => 1. REGION
+CAMIGUIN
+    [1] => 
+    [2] => 
+    [3] => 2. PROVINCE
+CAMIGUIN
+    [4] => 
+    [5] => 
+    [6] => 3. DISTRICT
+
+    [7] => 
+    [8] => 
+    [9] => 4. CITY/MUNICIPALITY
+CATARMAN
+    [10] => 
+    [11] => 
+    [12] => 5. BARANGAY
+BONBON
+    [13] => 
+    [14] => 6. EVACUATION CENTER/SITE
+BONBON
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Checking row 5: Array
+(
+    [0] => 
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Checking row 6: Array
+(
+    [0] => HEAD OF THE FAMILY
+    [1] => 
+    [2] => 
+    [3] => 
+    [4] => 
+    [5] => 
+    [6] => 
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+    [12] => 
+    [13] => 
+    [14] => 
+    [15] => 
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Found 'HEAD OF THE FAMILY' at row 6, column 0
+DEBUG - 2026-03-23 17:38:55 --> parseFacedCard called with startRow: 6
+DEBUG - 2026-03-23 17:38:55 --> Data start row: 7, Available rows: 19
+DEBUG - 2026-03-23 17:38:55 --> Searching for FAMILY MEMBERS from row 15 to 25
+DEBUG - 2026-03-23 17:38:55 --> Row 15: 'FAMILY MEMBERS
+(Last Name, First Name)'
+DEBUG - 2026-03-23 17:38:55 --> Row 16: 'RICHARD MICULOB'
+DEBUG - 2026-03-23 17:38:55 --> Row 21: '26. VULNERABLE MEMBERS:
+Older Persons: 0   Pregnan'
+DEBUG - 2026-03-23 17:38:55 --> Row 23: 'Signature/Thumbmark of Family Head
+
+
+RICHARD VICTO'
+DEBUG - 2026-03-23 17:38:55 --> Row 25: '29. DATA PRIVACY DECLARATION – All data and info'
+DEBUG - 2026-03-23 17:38:55 --> Found FAMILY MEMBERS headers at row 15, data starts at 16
+DEBUG - 2026-03-23 17:38:55 --> Starting family member parsing from row 16
+DEBUG - 2026-03-23 17:38:55 --> Checking family row 16: Name='RICHARD MICULOB'
+DEBUG - 2026-03-23 17:38:55 --> Found family member: RICHARD MICULOB (Relation: )
+DEBUG - 2026-03-23 17:38:55 --> Checking family row 17: Name=''
+DEBUG - 2026-03-23 17:38:55 --> Checking family row 18: Name=''
+DEBUG - 2026-03-23 17:38:55 --> Checking family row 19: Name=''
+DEBUG - 2026-03-23 17:38:55 --> Checking family row 20: Name=''
+DEBUG - 2026-03-23 17:38:55 --> Checking family row 21: Name='26. VULNERABLE MEMBERS:
+Older Persons: 0   Pregnant: 0   Lactating: 0   PWD: 0'
+DEBUG - 2026-03-23 17:38:55 --> Hit end of family section at row 21: 26. VULNERABLE MEMBERS:
+Older Persons: 0   Pregnant: 0   Lactating: 0   PWD: 0
+DEBUG - 2026-03-23 17:38:55 --> Found household_no from SERIAL NUMBER: 0001
+DEBUG - 2026-03-23 17:38:55 --> Final parsed data - Name: RICHARD MICULOB, Family members: 1
+DEBUG - 2026-03-23 17:38:55 --> Parsed resident data: Array
+(
+    [last_name] => MICULOB
+    [civil_status] => 15. CIVIL STATUS
+    [mother_maiden_name] => 16. MOTHER'S MAIDEN NAME
+    [first_name] => RICHARD
+    [religion] => CATHOLIC
+    [occupation] => NONE
+    [middle_name] => VICTOR
+    [name_extension] => 10. NAME EXT.
+    [birthdate] => 2026-03-23
+    [age] => 0
+    [birthplace] => CAMIGUIN GENERAL HOSPITAL
+    [sex] => MALE
+    [monthly_income] => 0
+    [id_card_presented] => 20. ID CARD PRESENTED
+    [id_card_number] => 21. ID CARD NUMBER
+    [contact_number] => 09273532291
+    [permanent_address] => 123 PUROK 3A CAMIGUIN BONBON CATARMAN CAMIGUIN 9104
+    [is_4ps_beneficiary] => 0
+    [household_no] => 0001
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [data_privacy_consent] => 1
+    [status] => active
+    [family_members] => Array
+        (
+            [0] => Array
+                (
+                    [name] => RICHARD MICULOB
+                    [relation] => 
+                    [birthdate] => 
+                    [age] => 
+                    [sex] => 0
+                    [education] => 
+                    [occupation] => 
+                    [remarks] => 
+                )
+
+        )
+
+)
+
+DEBUG - 2026-03-23 17:38:55 --> Inserted resident ID: 40, Name: RICHARD MICULOB
+DEBUG - 2026-03-23 17:38:55 --> Inserted family member: RICHARD MICULOB
+DEBUG - 2026-03-23 17:38:55 --> Import completed. Imported: 1, Errors: 0
+DEBUG - 2026-03-23 17:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-23 17:39:07 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 93
+            [resident_id] => 40
+            [member_id] => 0001-01
+            [name] => RICHARD MICULOB
+            [relation] => 
+            [birthdate] => 0000-00-00
+            [age] => 0
+            [sex] => 0
+            [education] => 
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => f1cb56adc5ffc8b4d4649160848d92d0
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-03-23 17:38:55
+            [updated_at] => 2026-03-23 17:38:55
+        )
+
+)
+

@@ -1,0 +1,465 @@
+DEBUG - 2026-07-07 10:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 10:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 10:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 10:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 10:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 10:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 10:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 10:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 11:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 13:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 13:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 13:02:43 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23073
+            [resident_id] => 8397
+            [member_id] => 0057-01
+            [name] => GILBERTO ABANIL
+            [relation] => Husband
+            [birthdate] => 1970-03-25
+            [age] => 56
+            [sex] => Male
+            [education] => HIGHSCHOOL GRAD
+            [occupation] => Security Guard
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => edc22b22cf38c6f2d8fde900a0f7d5be
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [1] => Array
+        (
+            [id] => 23074
+            [resident_id] => 8397
+            [member_id] => 0057-02
+            [name] => ERICA JANELLE LABI
+            [relation] => Daughter
+            [birthdate] => 2005-06-18
+            [age] => 20
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 89a642b5771d7d6faa2b8b5bafeeab97
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [2] => Array
+        (
+            [id] => 23075
+            [resident_id] => 8397
+            [member_id] => 0057-03
+            [name] => SHAINA JANE ABANIL
+            [relation] => Daughter
+            [birthdate] => 2007-06-08
+            [age] => 18
+            [sex] => Female
+            [education] => HIGH SCHOOL LEVEL
+            [occupation] => Osy
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => bcc82959dabaed54e6b4564e67c7e443
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [3] => Array
+        (
+            [id] => 23076
+            [resident_id] => 8397
+            [member_id] => 0057-04
+            [name] => ERIC ABANIL
+            [relation] => Son
+            [birthdate] => 2008-04-10
+            [age] => 17
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 75cce11ea3fd2db4d0277bed790f4c9f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+)
+
+DEBUG - 2026-07-07 13:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:25:43 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23073
+            [resident_id] => 8397
+            [member_id] => 0057-01
+            [name] => GILBERTO ABANIL
+            [relation] => Husband
+            [birthdate] => 1970-03-25
+            [age] => 56
+            [sex] => Male
+            [education] => HIGHSCHOOL GRAD
+            [occupation] => Security Guard
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => edc22b22cf38c6f2d8fde900a0f7d5be
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [1] => Array
+        (
+            [id] => 23074
+            [resident_id] => 8397
+            [member_id] => 0057-02
+            [name] => ERICA JANELLE LABI
+            [relation] => Daughter
+            [birthdate] => 2005-06-18
+            [age] => 20
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 89a642b5771d7d6faa2b8b5bafeeab97
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [2] => Array
+        (
+            [id] => 23075
+            [resident_id] => 8397
+            [member_id] => 0057-03
+            [name] => SHAINA JANE ABANIL
+            [relation] => Daughter
+            [birthdate] => 2007-06-08
+            [age] => 18
+            [sex] => Female
+            [education] => HIGH SCHOOL LEVEL
+            [occupation] => Osy
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => bcc82959dabaed54e6b4564e67c7e443
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [3] => Array
+        (
+            [id] => 23076
+            [resident_id] => 8397
+            [member_id] => 0057-04
+            [name] => ERIC ABANIL
+            [relation] => Son
+            [birthdate] => 2008-04-10
+            [age] => 17
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 75cce11ea3fd2db4d0277bed790f4c9f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+)
+
+DEBUG - 2026-07-07 18:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:33:51 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23073
+            [resident_id] => 8397
+            [member_id] => 0057-01
+            [name] => GILBERTO ABANIL
+            [relation] => Husband
+            [birthdate] => 1970-03-25
+            [age] => 56
+            [sex] => Male
+            [education] => HIGHSCHOOL GRAD
+            [occupation] => Security Guard
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => edc22b22cf38c6f2d8fde900a0f7d5be
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [1] => Array
+        (
+            [id] => 23074
+            [resident_id] => 8397
+            [member_id] => 0057-02
+            [name] => ERICA JANELLE LABI
+            [relation] => Daughter
+            [birthdate] => 2005-06-18
+            [age] => 20
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 89a642b5771d7d6faa2b8b5bafeeab97
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [2] => Array
+        (
+            [id] => 23075
+            [resident_id] => 8397
+            [member_id] => 0057-03
+            [name] => SHAINA JANE ABANIL
+            [relation] => Daughter
+            [birthdate] => 2007-06-08
+            [age] => 18
+            [sex] => Female
+            [education] => HIGH SCHOOL LEVEL
+            [occupation] => Osy
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => bcc82959dabaed54e6b4564e67c7e443
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+    [3] => Array
+        (
+            [id] => 23076
+            [resident_id] => 8397
+            [member_id] => 0057-04
+            [name] => ERIC ABANIL
+            [relation] => Son
+            [birthdate] => 2008-04-10
+            [age] => 17
+            [sex] => Male
+            [education] => HIGHSCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 75cce11ea3fd2db4d0277bed790f4c9f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:19
+            [updated_at] => 2026-04-19 10:09:19
+        )
+
+)
+
+DEBUG - 2026-07-07 18:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:17 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23600
+            [resident_id] => 8564
+            [member_id] => 0249-01
+            [name] => JUDYSSA O. ACEBES
+            [relation] => Daughter
+            [birthdate] => 1998-07-20
+            [age] => 27
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/JUDYSSA_O_ACEBES_2026-04-18_18-25-30.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => eb82135e1a1aac007ce27f804ca4568c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/JUDYSSA_O_ACEBES_2026-04-18_18-25-30.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23601
+            [resident_id] => 8564
+            [member_id] => 0249-02
+            [name] => BRYNAN O. ACEBES
+            [relation] => Son
+            [birthdate] => 2001-02-11
+            [age] => 25
+            [sex] => Male
+            [education] => HIGHSCHOOL GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ec567701ab23c971cb2379f3bd5614d9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+)
+
+DEBUG - 2026-07-07 18:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 18:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-07 19:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

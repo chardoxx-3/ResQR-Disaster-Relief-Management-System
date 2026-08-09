@@ -1,0 +1,1542 @@
+DEBUG - 2026-04-20 07:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:20:53 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23348
+            [resident_id] => 8485
+            [member_id] => 0157-01
+            [name] => JHIEN MAYA LEE TALISAY
+            [relation] => Daughter
+            [birthdate] => 2005-05-01
+            [age] => 20
+            [sex] => Female
+            [education] => HIGH SCHOOL GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/JHIEN_MAYA_LEE_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4f357298f38659a162106a04ee02584f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/JHIEN_MAYA_LEE_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23349
+            [resident_id] => 8485
+            [member_id] => 0157-02
+            [name] => WYLNA LEN TALISAY
+            [relation] => Daughter
+            [birthdate] => 2006-08-02
+            [age] => 19
+            [sex] => Female
+            [education] => TECHNICAL VOCATIONAL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 195737ba51e65eb49e99193f9a5c5bc9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23350
+            [resident_id] => 8485
+            [member_id] => 0157-03
+            [name] => WILXAH TALISAY
+            [relation] => Daughter
+            [birthdate] => 2010-12-17
+            [age] => 15
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1e8d5cd8e1aa5ec4ff56ce917f03f120
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23351
+            [resident_id] => 8485
+            [member_id] => 0157-04
+            [name] => WILSHIEN TALISAY
+            [relation] => Daughter
+            [birthdate] => 2012-10-15
+            [age] => 13
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ab582bf7a6ff355b4c7c65347ad79592
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+)
+
+DEBUG - 2026-04-20 07:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:23:40 --> Preserved existing family member photo: uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+DEBUG - 2026-04-20 07:23:40 --> Preserved existing family member photo: uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+DEBUG - 2026-04-20 07:23:40 --> Preserved existing family member photo: uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+DEBUG - 2026-04-20 07:23:41 --> Deleted old family member photo: uploads/family_photos/JHIEN_MAYA_LEE_TALISAY_2026-04-18_18-38-37.jpg
+DEBUG - 2026-04-20 07:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:24:06 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23645
+            [resident_id] => 8578
+            [member_id] => 0263-01
+            [name] => IAN PAUL COLEN HALIL TABAMO
+            [relation] => Grandson
+            [birthdate] => 1999-06-07
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Pharmacist Aid
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 41acafddaed943cfa23919a978e08499
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [1] => Array
+        (
+            [id] => 23646
+            [resident_id] => 8578
+            [member_id] => 0263-02
+            [name] => ROBERT HALIL TABAMO
+            [relation] => Son
+            [birthdate] => 1988-05-21
+            [age] => 37
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Glass Installer
+            [remarks] => 
+            [photo] => uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 2b61cefc998d164c058a3d331607984c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23647
+            [resident_id] => 8578
+            [member_id] => 0263-03
+            [name] => HANNAH MAE MAESTRADO BALACUIT-TABAMO
+            [relation] => Daughter In Law
+            [birthdate] => 1996-04-15
+            [age] => 30
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => Midwife
+            [remarks] => 
+            [photo] => uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8c953c3f706a59f3d624b9b7dca41ca6
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23648
+            [resident_id] => 8578
+            [member_id] => 0263-04
+            [name] => CHRISTIAN HAJAY JAMELIA TABAMO
+            [relation] => Grandson
+            [birthdate] => 2008-11-18
+            [age] => 17
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 043a847343a4342eb7f130c7edcced45
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [4] => Array
+        (
+            [id] => 23649
+            [resident_id] => 8578
+            [member_id] => 0263-05
+            [name] => REYNALDO DAGONDON TABAMO
+            [relation] => Husband
+            [birthdate] => 1953-02-17
+            [age] => 73
+            [sex] => Male
+            [education] => ELEMENTARY GRADUATE
+            [occupation] => Fisherman
+            [remarks] => 
+            [photo] => uploads/family_photos/REYNALDO_DAGONDON_TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => bcb24430b3a37accca4141dc826cc8a9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/REYNALDO_DAGONDON_TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [5] => Array
+        (
+            [id] => 23650
+            [resident_id] => 8578
+            [member_id] => 0263-06
+            [name] => REYNANTE HALIL TABAMO
+            [relation] => Son
+            [birthdate] => 1982-09-25
+            [age] => 43
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Fisherman
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a2c929bcdcea63194c331fcdbfe67b83
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+)
+
+DEBUG - 2026-04-20 07:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:32:17 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23756
+            [resident_id] => 8485
+            [member_id] => 0157-01
+            [name] => WILSON TALISAY 
+            [relation] => FATHER
+            [birthdate] => 1967-09-13
+            [age] => 58
+            [sex] => Male
+            [education] => HIGH SCHOOL GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4f357298f38659a162106a04ee02584f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+        )
+
+    [1] => Array
+        (
+            [id] => 23757
+            [resident_id] => 8485
+            [member_id] => 0157-02
+            [name] => WYLNA LEN TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2006-08-02
+            [age] => 19
+            [sex] => Female
+            [education] => TECHNICAL VOCATIONAL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 195737ba51e65eb49e99193f9a5c5bc9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23758
+            [resident_id] => 8485
+            [member_id] => 0157-03
+            [name] => WILXAH TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2010-12-17
+            [age] => 15
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1e8d5cd8e1aa5ec4ff56ce917f03f120
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23759
+            [resident_id] => 8485
+            [member_id] => 0157-04
+            [name] => WILSHIEN TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2012-10-15
+            [age] => 13
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ab582bf7a6ff355b4c7c65347ad79592
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+)
+
+DEBUG - 2026-04-20 07:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:32:53 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23756
+            [resident_id] => 8485
+            [member_id] => 0157-01
+            [name] => WILSON TALISAY 
+            [relation] => FATHER
+            [birthdate] => 1967-09-13
+            [age] => 58
+            [sex] => Male
+            [education] => HIGH SCHOOL GRADUATE
+            [occupation] => 
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4f357298f38659a162106a04ee02584f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+        )
+
+    [1] => Array
+        (
+            [id] => 23757
+            [resident_id] => 8485
+            [member_id] => 0157-02
+            [name] => WYLNA LEN TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2006-08-02
+            [age] => 19
+            [sex] => Female
+            [education] => TECHNICAL VOCATIONAL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 195737ba51e65eb49e99193f9a5c5bc9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WYLNA_LEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23758
+            [resident_id] => 8485
+            [member_id] => 0157-03
+            [name] => WILXAH TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2010-12-17
+            [age] => 15
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1e8d5cd8e1aa5ec4ff56ce917f03f120
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILXAH_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23759
+            [resident_id] => 8485
+            [member_id] => 0157-04
+            [name] => WILSHIEN TALISAY
+            [relation] => DAUGHTER
+            [birthdate] => 2012-10-15
+            [age] => 13
+            [sex] => Female
+            [education] => HIGHSCHOOL
+            [occupation] => 
+            [remarks] => 
+            [photo] => uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ab582bf7a6ff355b4c7c65347ad79592
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:23:40
+            [updated_at] => 2026-04-20 07:23:40
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/WILSHIEN_TALISAY_2026-04-18_18-38-37.jpg
+        )
+
+)
+
+DEBUG - 2026-04-20 07:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:33:18 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23645
+            [resident_id] => 8578
+            [member_id] => 0263-01
+            [name] => IAN PAUL COLEN HALIL TABAMO
+            [relation] => Grandson
+            [birthdate] => 1999-06-07
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Pharmacist Aid
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 41acafddaed943cfa23919a978e08499
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [1] => Array
+        (
+            [id] => 23646
+            [resident_id] => 8578
+            [member_id] => 0263-02
+            [name] => ROBERT HALIL TABAMO
+            [relation] => Son
+            [birthdate] => 1988-05-21
+            [age] => 37
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Glass Installer
+            [remarks] => 
+            [photo] => uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 2b61cefc998d164c058a3d331607984c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23647
+            [resident_id] => 8578
+            [member_id] => 0263-03
+            [name] => HANNAH MAE MAESTRADO BALACUIT-TABAMO
+            [relation] => Daughter In Law
+            [birthdate] => 1996-04-15
+            [age] => 30
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => Midwife
+            [remarks] => 
+            [photo] => uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8c953c3f706a59f3d624b9b7dca41ca6
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23648
+            [resident_id] => 8578
+            [member_id] => 0263-04
+            [name] => CHRISTIAN HAJAY JAMELIA TABAMO
+            [relation] => Grandson
+            [birthdate] => 2008-11-18
+            [age] => 17
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 043a847343a4342eb7f130c7edcced45
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [4] => Array
+        (
+            [id] => 23649
+            [resident_id] => 8578
+            [member_id] => 0263-05
+            [name] => REYNALDO DAGONDON TABAMO
+            [relation] => Husband
+            [birthdate] => 1953-02-17
+            [age] => 73
+            [sex] => Male
+            [education] => ELEMENTARY GRADUATE
+            [occupation] => Fisherman
+            [remarks] => 
+            [photo] => uploads/family_photos/REYNALDO_DAGONDON_TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => bcb24430b3a37accca4141dc826cc8a9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/REYNALDO_DAGONDON_TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [5] => Array
+        (
+            [id] => 23650
+            [resident_id] => 8578
+            [member_id] => 0263-06
+            [name] => REYNANTE HALIL TABAMO
+            [relation] => Son
+            [birthdate] => 1982-09-25
+            [age] => 43
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Fisherman
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a2c929bcdcea63194c331fcdbfe67b83
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+)
+
+DEBUG - 2026-04-20 07:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:33:50 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23645
+            [resident_id] => 8578
+            [member_id] => 0263-01
+            [name] => IAN PAUL COLEN HALIL TABAMO
+            [relation] => Grandson
+            [birthdate] => 1999-06-07
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Pharmacist Aid
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 41acafddaed943cfa23919a978e08499
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [1] => Array
+        (
+            [id] => 23646
+            [resident_id] => 8578
+            [member_id] => 0263-02
+            [name] => ROBERT HALIL TABAMO
+            [relation] => Son
+            [birthdate] => 1988-05-21
+            [age] => 37
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Glass Installer
+            [remarks] => 
+            [photo] => uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 2b61cefc998d164c058a3d331607984c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23647
+            [resident_id] => 8578
+            [member_id] => 0263-03
+            [name] => HANNAH MAE MAESTRADO BALACUIT-TABAMO
+            [relation] => Daughter In Law
+            [birthdate] => 1996-04-15
+            [age] => 30
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => Midwife
+            [remarks] => 
+            [photo] => uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8c953c3f706a59f3d624b9b7dca41ca6
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23648
+            [resident_id] => 8578
+            [member_id] => 0263-04
+            [name] => CHRISTIAN HAJAY JAMELIA TABAMO
+            [relation] => Grandson
+            [birthdate] => 2008-11-18
+            [age] => 17
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 043a847343a4342eb7f130c7edcced45
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [4] => Array
+        (
+            [id] => 23649
+            [resident_id] => 8578
+            [member_id] => 0263-05
+            [name] => REYNALDO DAGONDON TABAMO
+            [relation] => Husband
+            [birthdate] => 1953-02-17
+            [age] => 73
+            [sex] => Male
+            [education] => ELEMENTARY GRADUATE
+            [occupation] => Fisherman
+            [remarks] => 
+            [photo] => uploads/family_photos/REYNALDO_DAGONDON_TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => bcb24430b3a37accca4141dc826cc8a9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/REYNALDO_DAGONDON_TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [5] => Array
+        (
+            [id] => 23650
+            [resident_id] => 8578
+            [member_id] => 0263-06
+            [name] => REYNANTE HALIL TABAMO
+            [relation] => Son
+            [birthdate] => 1982-09-25
+            [age] => 43
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Fisherman
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a2c929bcdcea63194c331fcdbfe67b83
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+)
+
+DEBUG - 2026-04-20 07:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:36:46 --> Uploaded family member photo saved: uploads/family_photos/SURHAIDA_TABAMO_2026-04-20_07-36-46.jpg for member: SURHAIDA TABAMO
+DEBUG - 2026-04-20 07:36:46 --> Preserved existing family member photo: uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+DEBUG - 2026-04-20 07:36:46 --> Preserved existing family member photo: uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+DEBUG - 2026-04-20 07:36:46 --> Deleted old family member photo: uploads/family_photos/REYNALDO_DAGONDON_TABAMO_2026-04-18_19-01-40.jpg
+DEBUG - 2026-04-20 07:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:37:19 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23760
+            [resident_id] => 8578
+            [member_id] => 0263-01
+            [name] => SURHAIDA TABAMO
+            [relation] => HUSBAND
+            [birthdate] => 1967-09-13
+            [age] => 58
+            [sex] => Female
+            [education] => ELEMENTARY GRADUATE
+            [occupation] => VENDOR
+            [remarks] => 
+            [photo] => uploads/family_photos/SURHAIDA_TABAMO_2026-04-20_07-36-46.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => bcb24430b3a37accca4141dc826cc8a9
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:36:46
+            [updated_at] => 2026-04-20 07:36:46
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/SURHAIDA_TABAMO_2026-04-20_07-36-46.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23761
+            [resident_id] => 8578
+            [member_id] => 0263-02
+            [name] => REYNANTE HALIL TABAMO
+            [relation] => SON
+            [birthdate] => 1982-09-25
+            [age] => 43
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => FISHERMAN
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a2c929bcdcea63194c331fcdbfe67b83
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:36:46
+            [updated_at] => 2026-04-20 07:36:46
+        )
+
+    [2] => Array
+        (
+            [id] => 23762
+            [resident_id] => 8578
+            [member_id] => 0263-03
+            [name] => ROBERT HALIL TABAMO
+            [relation] => SON
+            [birthdate] => 1988-05-21
+            [age] => 37
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => GLASS INSTALLER
+            [remarks] => 
+            [photo] => uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 2b61cefc998d164c058a3d331607984c
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:36:46
+            [updated_at] => 2026-04-20 07:36:46
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ROBERT_HALIL_TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23763
+            [resident_id] => 8578
+            [member_id] => 0263-04
+            [name] => HANNAH MAE MAESTRADO BALACUIT-TABAMO
+            [relation] => DAUGHTER IN LAW
+            [birthdate] => 1996-04-15
+            [age] => 30
+            [sex] => Female
+            [education] => COLLEGE GRADUATE
+            [occupation] => MIDWIFE
+            [remarks] => 
+            [photo] => uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8c953c3f706a59f3d624b9b7dca41ca6
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:36:46
+            [updated_at] => 2026-04-20 07:36:46
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/HANNAH_MAE_MAESTRADO_BALACUIT-TABAMO_2026-04-18_19-01-40.jpg
+        )
+
+    [4] => Array
+        (
+            [id] => 23764
+            [resident_id] => 8578
+            [member_id] => 0263-05
+            [name] => IAN PAUL COLEN HALIL TABAMO
+            [relation] => GRANDSON
+            [birthdate] => 1999-06-07
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => PHARMACIST AID
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 41acafddaed943cfa23919a978e08499
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:36:46
+            [updated_at] => 2026-04-20 07:36:46
+        )
+
+    [5] => Array
+        (
+            [id] => 23765
+            [resident_id] => 8578
+            [member_id] => 0263-06
+            [name] => CHRISTIAN HAJAY JAMELIA TABAMO
+            [relation] => GRANDSON
+            [birthdate] => 2008-11-18
+            [age] => 17
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 043a847343a4342eb7f130c7edcced45
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:36:46
+            [updated_at] => 2026-04-20 07:36:46
+        )
+
+)
+
+DEBUG - 2026-04-20 07:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:38:51 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23662
+            [resident_id] => 8582
+            [member_id] => 0267-01
+            [name] => ARCELIE S. LAMONTE
+            [relation] => Wife
+            [birthdate] => 1976-05-09
+            [age] => 49
+            [sex] => Female
+            [education] => HIGHSCHOOL LEVEL
+            [occupation] => Fish Vendor
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 90708e8e04ef7e167f841d07179a0967
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [1] => Array
+        (
+            [id] => 23663
+            [resident_id] => 8582
+            [member_id] => 0267-02
+            [name] => JUSTINE S. LAMONTE
+            [relation] => Son
+            [birthdate] => 2007-10-03
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL GRADUATE
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4892b431f3ea2dfc1bac6fb07cbfd713
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [2] => Array
+        (
+            [id] => 23664
+            [resident_id] => 8582
+            [member_id] => 0267-03
+            [name] => ARCHEL S. LAMONTE
+            [relation] => Son
+            [birthdate] => 2010-07-17
+            [age] => 15
+            [sex] => Female
+            [education] => SENIOR HIGH SCHOOL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/ARCHEL_S_LAMONTE_2026-04-18_19-10-37.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 78afbab041726193c686afa4fa8dcd7e
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ARCHEL_S_LAMONTE_2026-04-18_19-10-37.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 23665
+            [resident_id] => 8582
+            [member_id] => 0267-04
+            [name] => LEONARDO S. LAMOMTE JR.
+            [relation] => Son
+            [birthdate] => 2002-01-27
+            [age] => 24
+            [sex] => Male
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ea5a6fbf8362569ea311813b3233270d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+    [4] => Array
+        (
+            [id] => 23666
+            [resident_id] => 8582
+            [member_id] => 0267-05
+            [name] => GEROME S. LAMONTE
+            [relation] => Son
+            [birthdate] => 1999-07-20
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => Makeup Artist
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ba5b80935a991acf484daf1c73a40bc3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+        )
+
+)
+
+DEBUG - 2026-04-20 07:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:46:46 --> Deleted old family member photo: uploads/family_photos/ARCHEL_S_LAMONTE_2026-04-18_19-10-37.jpg
+DEBUG - 2026-04-20 07:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:46:59 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23766
+            [resident_id] => 8582
+            [member_id] => 0267-01
+            [name] => LEONARDO S. LAMONTE
+            [relation] => SON
+            [birthdate] => 1975-06-15
+            [age] => 50
+            [sex] => Male
+            [education] => 
+            [occupation] => FISHERMAN
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 78afbab041726193c686afa4fa8dcd7e
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [1] => Array
+        (
+            [id] => 23767
+            [resident_id] => 8582
+            [member_id] => 0267-02
+            [name] => ARCELIE S. LAMONTE
+            [relation] => WIFE
+            [birthdate] => 1976-05-09
+            [age] => 49
+            [sex] => Female
+            [education] => HIGHSCHOOL LEVEL
+            [occupation] => FISH VENDOR
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 90708e8e04ef7e167f841d07179a0967
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [2] => Array
+        (
+            [id] => 23768
+            [resident_id] => 8582
+            [member_id] => 0267-03
+            [name] => GEROME S. LAMONTE
+            [relation] => SON
+            [birthdate] => 1999-07-20
+            [age] => 26
+            [sex] => Male
+            [education] => COLLEGE GRADUATE
+            [occupation] => MAKEUP ARTIST
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ba5b80935a991acf484daf1c73a40bc3
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [3] => Array
+        (
+            [id] => 23769
+            [resident_id] => 8582
+            [member_id] => 0267-04
+            [name] => LEONARDO S. LAMOMTE JR.
+            [relation] => SON
+            [birthdate] => 2002-01-27
+            [age] => 24
+            [sex] => Male
+            [education] => COLLEGE UNDERGRADUATE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => ea5a6fbf8362569ea311813b3233270d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+    [4] => Array
+        (
+            [id] => 23770
+            [resident_id] => 8582
+            [member_id] => 0267-05
+            [name] => JUSTINE S. LAMONTE
+            [relation] => SON
+            [birthdate] => 2007-10-03
+            [age] => 18
+            [sex] => Male
+            [education] => SENIOR HIGH SCHOOL GRADUATE
+            [occupation] => STUDENT
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 4892b431f3ea2dfc1bac6fb07cbfd713
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-20 07:46:46
+            [updated_at] => 2026-04-20 07:46:46
+        )
+
+)
+
+DEBUG - 2026-04-20 07:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:47:54 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23755
+            [resident_id] => 8590
+            [member_id] => 0275-01
+            [name] => JESTER CARCON
+            [relation] => COUSIN
+            [birthdate] => 0000-00-00
+            [age] => 0
+            [sex] => Male
+            [education] => 
+            [occupation] => ON-CALL
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d325707f99b1edc111dbb8fca0bcb07d
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 14:59:26
+            [updated_at] => 2026-04-19 14:59:26
+        )
+
+)
+
+DEBUG - 2026-04-20 07:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 07:48:12 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23558
+            [resident_id] => 8550
+            [member_id] => 0235-01
+            [name] => JAQUILU D. ACEBES
+            [relation] => Wife
+            [birthdate] => 1983-01-05
+            [age] => 43
+            [sex] => Female
+            [education] => COLLEGE LEVEL
+            [occupation] => House Wife
+            [remarks] => 
+            [photo] => uploads/family_photos/JAQUILU_D_ACEBES_2026-04-18_17-54-31.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 2e7a59b82ea874e66b8e4b9d63a8c5de
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/JAQUILU_D_ACEBES_2026-04-18_17-54-31.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23559
+            [resident_id] => 8550
+            [member_id] => 0235-02
+            [name] => MARC CHLOE D. ACEBES
+            [relation] => Son
+            [birthdate] => 2007-01-30
+            [age] => 19
+            [sex] => Male
+            [education] => COLLEGE LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/MARC_CHLOE_D_ACEBES_2026-04-18_17-54-31.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 8bac8d0faabbf920522eeffbefa011af
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/MARC_CHLOE_D_ACEBES_2026-04-18_17-54-31.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 23560
+            [resident_id] => 8550
+            [member_id] => 0235-03
+            [name] => MOPHEL D. ACEBES
+            [relation] => Son
+            [birthdate] => 2016-04-21
+            [age] => 9
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Student
+            [remarks] => 
+            [photo] => uploads/family_photos/MOPHEL_D_ACEBES_2026-04-18_17-54-31.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => d8bff874a45d2d8ed95d05337f5be536
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:21
+            [updated_at] => 2026-04-19 10:09:21
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/MOPHEL_D_ACEBES_2026-04-18_17-54-31.jpg
+        )
+
+)
+
+DEBUG - 2026-04-20 07:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:41:21 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23534
+            [resident_id] => 8543
+            [member_id] => 0228-01
+            [name] => ANTONIA ATASAN ABUROT
+            [relation] => Live In-partner
+            [birthdate] => 1968-06-20
+            [age] => 57
+            [sex] => Female
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Vendor
+            [remarks] => 
+            [photo] => uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1cb86e75e4dc544167d9b34adda1c07f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23535
+            [resident_id] => 8543
+            [member_id] => 0228-02
+            [name] => HERRON ABUROT
+            [relation] => Step-son
+            [birthdate] => 1997-04-07
+            [age] => 29
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Vendor
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a91d7f03cb54693eed7c13dc08792205
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+    [2] => Array
+        (
+            [id] => 23536
+            [resident_id] => 8543
+            [member_id] => 0228-03
+            [name] => NIÑO ALCANTAR
+            [relation] => Son
+            [birthdate] => 2009-07-19
+            [age] => 16
+            [sex] => Male
+            [education] => JUNIOR HIGH SCHOOL COMPLETER
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 23be80b6423b5cbc95b34ec3f2b70aab
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+)
+
+DEBUG - 2026-04-20 09:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:58:52 --> Family members with file check: Array
+(
+    [0] => Array
+        (
+            [id] => 23534
+            [resident_id] => 8543
+            [member_id] => 0228-01
+            [name] => ANTONIA ATASAN ABUROT
+            [relation] => Live In-partner
+            [birthdate] => 1968-06-20
+            [age] => 57
+            [sex] => Female
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Vendor
+            [remarks] => 
+            [photo] => uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 1cb86e75e4dc544167d9b34adda1c07f
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+            [photo_exists] => YES
+            [full_path] => C:\Users\Richard Miculob\Documents\ResQR\public\uploads/family_photos/ANTONIA_ATASAN_ABUROT_2026-04-18_17-40-17.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 23535
+            [resident_id] => 8543
+            [member_id] => 0228-02
+            [name] => HERRON ABUROT
+            [relation] => Step-son
+            [birthdate] => 1997-04-07
+            [age] => 29
+            [sex] => Male
+            [education] => ELEMENTARY LEVEL
+            [occupation] => Vendor
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => a91d7f03cb54693eed7c13dc08792205
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+    [2] => Array
+        (
+            [id] => 23536
+            [resident_id] => 8543
+            [member_id] => 0228-03
+            [name] => NIÑO ALCANTAR
+            [relation] => Son
+            [birthdate] => 2009-07-19
+            [age] => 16
+            [sex] => Male
+            [education] => JUNIOR HIGH SCHOOL COMPLETER
+            [occupation] => Student
+            [remarks] => 
+            [photo] => 
+            [id_photo_front] => 
+            [id_photo_back] => 
+            [birth_certificate] => 
+            [qr_code_token] => 23be80b6423b5cbc95b34ec3f2b70aab
+            [qr_code_id] => 
+            [status] => active
+            [created_at] => 2026-04-19 10:09:20
+            [updated_at] => 2026-04-19 10:09:20
+        )
+
+)
+
+DEBUG - 2026-04-20 09:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 09:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-20 10:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

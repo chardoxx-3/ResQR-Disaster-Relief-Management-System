@@ -1,0 +1,219 @@
+CRITICAL - 2026-05-07 20:29:14 --> ErrorException: Undefined property: App\Controllers\Reports::$residentModel
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Controllers\Reports.php on line 1263.
+ 1 APPPATH\Controllers\Reports.php(1263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$residentModel', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Controllers\\Reports.php', 1263)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangaySummary()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:29:28 --> ErrorException: Undefined property: App\Controllers\Reports::$residentModel
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Controllers\Reports.php on line 1263.
+ 1 APPPATH\Controllers\Reports.php(1263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$residentModel', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Controllers\\Reports.php', 1263)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangaySummary()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:34:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reports/barangay_summary.php"
+[Method: GET, Route: reports/barangay-summary]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/barangay_summary.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reports/barangay_summary', [], true)
+ 3 APPPATH\Controllers\Reports.php(1556): view('reports/barangay_summary', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:37:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reports/barangay_summary.php"
+[Method: GET, Route: reports/barangay-summary]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/barangay_summary.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reports/barangay_summary', [], true)
+ 3 APPPATH\Controllers\Reports.php(1556): view('reports/barangay_summary', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:37:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reports/barangay_summary.php"
+[Method: GET, Route: reports/barangay-summary]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/barangay_summary.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reports/barangay_summary', [], true)
+ 3 APPPATH\Controllers\Reports.php(1556): view('reports/barangay_summary', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:47:57 --> ErrorException: Undefined array key "senior"
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Views\reports\barangay_summary.php on line 822.
+ 1 APPPATH\Views\reports\barangay_summary.php(822): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "senior"', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php', 822)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reports/barangay_summary', [], true)
+ 5 APPPATH\Controllers\Reports.php(1617): view('reports/barangay_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:49:24 --> ErrorException: Undefined array key "senior"
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Views\reports\barangay_summary.php on line 622.
+ 1 APPPATH\Views\reports\barangay_summary.php(622): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "senior"', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php', 622)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reports/barangay_summary', [], true)
+ 5 APPPATH\Controllers\Reports.php(1617): view('reports/barangay_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:55:19 --> ErrorException: Undefined variable $totalGenderCount
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Views\reports\barangay_summary.php on line 511.
+ 1 APPPATH\Views\reports\barangay_summary.php(511): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalGenderCount', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php', 511)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reports/barangay_summary', [], true)
+ 5 APPPATH\Controllers\Reports.php(1569): view('reports/barangay_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 20:55:49 --> ErrorException: Undefined variable $totalGenderCount
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Views\reports\barangay_summary.php on line 511.
+ 1 APPPATH\Views\reports\barangay_summary.php(511): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalGenderCount', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php', 511)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Views\\reports\\barangay_summary.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('reports/barangay_summary', [], true)
+ 5 APPPATH\Controllers\Reports.php(1569): view('reports/barangay_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 20:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 20:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 21:11:08 --> ErrorException: Undefined variable $selectedStreet
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Controllers\Reports.php on line 1283.
+ 1 APPPATH\Controllers\Reports.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedStreet', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Controllers\\Reports.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 21:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 21:11:16 --> ErrorException: Undefined variable $selectedStreet
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Controllers\Reports.php on line 1283.
+ 1 APPPATH\Controllers\Reports.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedStreet', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Controllers\\Reports.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 21:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 21:11:41 --> ErrorException: Undefined variable $selectedStreet
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Controllers\Reports.php on line 1283.
+ 1 APPPATH\Controllers\Reports.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedStreet', 'C:\\Users\\Richard Miculob\\Documents\\ResQR\\app\\Controllers\\Reports.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->barangarySummary()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ResQR\\public\\index.php')
+DEBUG - 2026-05-07 21:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-05-07 21:53:43 --> ErrorException: Cannot redeclare App\Controllers\Reports::exportBarangaySummary()
+[Method: GET, Route: reports/barangay-summary]
+in APPPATH\Controllers\Reports.php on line 1925.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-05-07 21:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-05-07 21:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

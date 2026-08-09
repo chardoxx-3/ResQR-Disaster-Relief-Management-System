@@ -1,0 +1,602 @@
+DEBUG - 2026-02-25 00:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 00:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 00:08:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "beneficiaries/edit.php"
+[Method: GET, Route: beneficiaries/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beneficiaries/edit.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/edit', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(45): view('beneficiaries/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 00:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 00:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 08:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 08:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 08:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 08:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 08:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 09:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 09:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 09:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 10:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:00:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "beneficiaries/view.php"
+[Method: GET, Route: beneficiaries/view/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beneficiaries/view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/view', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(261): view('beneficiaries/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->view('2')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 11:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:18:38 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: beneficiaries/delete/2]
+in APPPATH\Models\FamilyMemberModel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-02-25 11:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:20:38 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: beneficiaries/store]
+in APPPATH\Models\FamilyMemberModel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-02-25 11:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:22:26 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: beneficiaries]
+in APPPATH\Views\beneficiaries\index.php on line 125.
+ 1 APPPATH\Views\beneficiaries\index.php(125): json_decode([...], true)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\app\\Views\\beneficiaries\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/index', [], true)
+ 5 APPPATH\Controllers\Beneficiaries.php(25): view('beneficiaries/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 11:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:23:37 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: beneficiaries]
+in APPPATH\Views\beneficiaries\index.php on line 125.
+ 1 APPPATH\Views\beneficiaries\index.php(125): json_decode([...], true)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\app\\Views\\beneficiaries\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/index', [], true)
+ 5 APPPATH\Controllers\Beneficiaries.php(25): view('beneficiaries/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:32:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "residentportal/member_qr_view.php"
+[Method: GET, Route: residentportal/view-member-qr/4/0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('residentportal/member_qr_view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residentportal/member_qr_view', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(349): view('residentportal/member_qr_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->viewMemberQR('4', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 11:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:33:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "residentportal/member_qr_view.php"
+[Method: GET, Route: portal/view-member-qr/4/0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('residentportal/member_qr_view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residentportal/member_qr_view', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(349): view('residentportal/member_qr_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->viewMemberQR('4', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+CRITICAL - 2026-02-25 11:35:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "portal/member_qr_view.php"
+[Method: GET, Route: portal/view-member-qr/4/0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portal/member_qr_view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('portal/member_qr_view', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(349): view('portal/member_qr_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->viewMemberQR('4', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 11:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:35:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "portal/member_qr_view.php"
+[Method: GET, Route: portal/view-member-qr/4/0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portal/member_qr_view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('portal/member_qr_view', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(349): view('portal/member_qr_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->viewMemberQR('4', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 11:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 11:36:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "residentportal/member_qr_view.php"
+[Method: GET, Route: residentportal/view-member-qr/4/0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('residentportal/member_qr_view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('residentportal/member_qr_view', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(349): view('residentportal/member_qr_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->viewMemberQR('4', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 11:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 11:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 12:05:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "beneficiaries/edit.php"
+[Method: GET, Route: beneficiaries/edit/4]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beneficiaries/edit.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/edit', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(132): view('beneficiaries/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->edit('4')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 12:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 12:08:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "beneficiaries/edit.php"
+[Method: GET, Route: beneficiaries/edit/4]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beneficiaries/edit.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/edit', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(132): view('beneficiaries/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->edit('4')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 12:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-25 12:11:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "beneficiaries/view.php"
+[Method: GET, Route: beneficiaries/view/4]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beneficiaries/view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beneficiaries/view', [], true)
+ 3 APPPATH\Controllers\Beneficiaries.php(487): view('beneficiaries/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Beneficiaries->view('4')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beneficiaries))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Richard Miculob\\Documents\\ReliefTrack\\public\\index.php')
+DEBUG - 2026-02-25 12:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:15:30 --> Update data: Array
+(
+    [csrf_test_name] => e22bf47c87aec52a82deced8fedc8fa8
+    [region] => Camiguin
+    [province] => Camiguin
+    [district] => 
+    [city_municipality] => Catarman
+    [barangay] => Bonbon
+    [evacuation_center] => Bonbon 
+    [household_no] => 111
+    [last_name] => Miculob
+    [first_name] => Richard
+    [middle_name] => Victor
+    [name_extension] => 
+    [birthdate] => 2009-08-07
+    [age] => 16
+    [birthplace] => 
+    [sex] => Male
+    [civil_status] => Widowed
+    [mother_maiden_name] => Rosalia Luzano
+    [religion] => Catholic
+    [occupation] => None
+    [monthly_income] => 1.00
+    [id_card_presented] => 
+    [id_card_number] => 
+    [contact_number] => 09273532291
+    [alternate_number] => 
+    [house_no] => 123
+    [street] => Purok 3a
+    [subdivision] => 
+    [permanent_barangay] => Bonbon
+    [permanent_city] => Catarman
+    [permanent_province] => Camiguin
+    [zip_code] => 9104
+    [ip_ethnicity] => 
+    [member_name] => Array
+        (
+            [0] => Chrisjun Sabote
+        )
+
+    [relation] => Array
+        (
+            [0] => Father
+        )
+
+    [member_birthdate] => Array
+        (
+            [0] => 
+        )
+
+    [member_age] => Array
+        (
+            [0] => 
+        )
+
+    [member_sex] => Array
+        (
+            [0] => Male
+        )
+
+    [education] => Array
+        (
+            [0] => CPSC
+        )
+
+    [member_occupation] => Array
+        (
+            [0] => NOne
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+        )
+
+    [family_members] => [{"name":"Chrisjun Sabote","relation":"Father","birthdate":"","age":"","sex":"Male","education":"CPSC","occupation":"NOne","remarks":""}]
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [shelter_damage] => No Damage
+    [ownership_status] => Owner
+    [registration_date] => 2026-02-25
+    [barangay_captain_name] => Richard Victor Miculob
+    [lswdo_name] => Richard Victor Miculob
+    [data_privacy_consent] => 1
+)
+
+ERROR - 2026-02-25 12:15:30 --> Update errors: Array
+(
+    [household_no] => The household_no field must contain a unique value.
+)
+
+DEBUG - 2026-02-25 12:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:16:26 --> Update data: Array
+(
+    [csrf_test_name] => e22bf47c87aec52a82deced8fedc8fa8
+    [region] => Camiguin
+    [province] => Camiguin
+    [district] => 
+    [city_municipality] => Catarman
+    [barangay] => Bonbon
+    [evacuation_center] => Bonbon 
+    [household_no] => 111
+    [last_name] => Miculob
+    [first_name] => Richard
+    [middle_name] => Victor
+    [name_extension] => Richard Victor Micul
+    [birthdate] => 2009-08-07
+    [age] => 16
+    [birthplace] => 
+    [sex] => Male
+    [civil_status] => Widowed
+    [mother_maiden_name] => Rosalia Luzano
+    [religion] => Catholic
+    [occupation] => None
+    [monthly_income] => 1.00
+    [id_card_presented] => 
+    [id_card_number] => 
+    [contact_number] => 09273532291
+    [alternate_number] => 
+    [house_no] => 123
+    [street] => Purok 3a
+    [subdivision] => 
+    [permanent_barangay] => Bonbon
+    [permanent_city] => Catarman
+    [permanent_province] => Camiguin
+    [zip_code] => 9104
+    [ip_ethnicity] => 
+    [member_name] => Array
+        (
+            [0] => Chrisjun Sabote
+            [1] => Godwin
+        )
+
+    [relation] => Array
+        (
+            [0] => Father
+            [1] => Father
+        )
+
+    [member_birthdate] => Array
+        (
+            [0] => 2008-01-29
+            [1] => 1998-02-03
+        )
+
+    [member_age] => Array
+        (
+            [0] => 18
+            [1] => 28
+        )
+
+    [member_sex] => Array
+        (
+            [0] => Male
+            [1] => Male
+        )
+
+    [education] => Array
+        (
+            [0] => CPSC
+            [1] => CPSC
+        )
+
+    [member_occupation] => Array
+        (
+            [0] => NOne
+            [1] => NOne
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+            [1] => 
+        )
+
+    [family_members] => [{"name":"Chrisjun Sabote","relation":"Father","birthdate":"2008-01-29","age":"18","sex":"Male","education":"CPSC","occupation":"NOne","remarks":""},{"name":"Godwin","relation":"Father","birthdate":"1998-02-03","age":"28","sex":"Male","education":"CPSC","occupation":"NOne","remarks":""}]
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [shelter_damage] => No Damage
+    [ownership_status] => Owner
+    [registration_date] => 2026-02-25
+    [barangay_captain_name] => Richard Victor Miculob
+    [lswdo_name] => Richard Victor Miculob
+    [data_privacy_consent] => 1
+)
+
+ERROR - 2026-02-25 12:16:26 --> Update errors: Array
+(
+    [household_no] => The household_no field must contain a unique value.
+)
+
+DEBUG - 2026-02-25 12:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:18:27 --> Update data: Array
+(
+    [csrf_test_name] => e22bf47c87aec52a82deced8fedc8fa8
+    [region] => Camiguin
+    [province] => Camiguin
+    [district] => 
+    [city_municipality] => Catarman
+    [barangay] => Bonbon
+    [evacuation_center] => Bonbon 
+    [household_no] => 111
+    [last_name] => Miculob
+    [first_name] => Richard
+    [middle_name] => Victor
+    [name_extension] => 
+    [birthdate] => 2009-08-07
+    [age] => 16
+    [birthplace] => 
+    [sex] => Male
+    [civil_status] => Widowed
+    [mother_maiden_name] => Rosalia Luzano
+    [religion] => Catholic
+    [occupation] => None
+    [monthly_income] => 1.00
+    [id_card_presented] => 
+    [id_card_number] => 
+    [contact_number] => 09273532291
+    [alternate_number] => 
+    [house_no] => 123
+    [street] => Purok 3a
+    [subdivision] => 
+    [permanent_barangay] => Bonbon
+    [permanent_city] => Catarman
+    [permanent_province] => Camiguin
+    [zip_code] => 9104
+    [ip_ethnicity] => 
+    [member_name] => Array
+        (
+            [0] => Chrisjun Sabote
+        )
+
+    [relation] => Array
+        (
+            [0] => Father
+        )
+
+    [member_birthdate] => Array
+        (
+            [0] => 
+        )
+
+    [member_age] => Array
+        (
+            [0] => 
+        )
+
+    [member_sex] => Array
+        (
+            [0] => Male
+        )
+
+    [education] => Array
+        (
+            [0] => CPSC
+        )
+
+    [member_occupation] => Array
+        (
+            [0] => NOne
+        )
+
+    [remarks] => Array
+        (
+            [0] => 
+        )
+
+    [family_members] => [{"name":"Chrisjun Sabote","relation":"Father","birthdate":"","age":"","sex":"Male","education":"CPSC","occupation":"NOne","remarks":""}]
+    [vulnerable_older_persons] => 0
+    [vulnerable_pregnant] => 0
+    [vulnerable_lactating] => 0
+    [vulnerable_pwd] => 0
+    [shelter_damage] => No Damage
+    [ownership_status] => Owner
+    [registration_date] => 2026-02-25
+    [barangay_captain_name] => Richard Victor Miculob
+    [lswdo_name] => Richard Victor Miculob
+    [data_privacy_consent] => 1
+)
+
+ERROR - 2026-02-25 12:18:27 --> Update errors: Array
+(
+    [household_no] => The household number is already in use by another resident.
+)
+
+DEBUG - 2026-02-25 12:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-25 12:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
